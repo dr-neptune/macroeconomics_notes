@@ -1,0 +1,100 @@
+#+TITLE: Chapter 6: Financial Markets II: The Extended IS-LM Model
+
+Basic message: *The financial system matters, and financial crises can have large macroeconomic effects*
+
+* 6-1 Nominal vs Real Interest Rates
+
+When we borrow, what we really want to know is how many goods we will have to give up in the future in exchange for goods we get today.
+
+Interest rates expressed in terms of dollars (or more generally, units of the national currency) are called *nominal interest rates*.
+Interest rates expressed in terms of a basket of goods are called *real interest rates*.
+
+In order to go from nominal interest rates to real interest rates, we just the nominal interest rate to take into account expected inflation.
+
+r_t \approx i_t + \pi^e_{t + 1}
+
+real interest rate is approximately equal to the nominal interest rate minus the expected inflation
+
+Some implications:
+- When expected inflation equals 0, the nominal and real interest rates are equal
+- Since expected inflation is typically positive, the real interest rate is typically lower than the nominal interest rate
+- For a given nominal interest rate, the higher the expected rate of inflation, the lower the real interest rate
+
+* Risk and Risk Premia
+
+Until now, we assumed that there was only one type of bond. Bonds differ in several ways.
+They differ in terms of maturity (the length of time over which they promise payments).
+They also differ in terms of risk, i.e. the probability that the borrower will not be able or willing to repay.
+
+In this chapter, we focus on risk. To compensate for risk, bond holders require a *risk premium*.
+
+The risk premium is determined by:
+- the probability of default itself. The higher this probability, the higher the interest rate investors will ask for.
+  Let i be the nominal interest rate on a riskless bond, and i + x be the nominal interest rate on a risky bond, which
+  has probability p of defaulting. Call x the risk premium.
+
+  Suppose investors are risk neutral, so they have the same expected return on a riskless and a risky bond.
+  For the expected return on both, the following relation must hold:
+  (1 + i) = (1 - p)(1 + i + x) + p(0)
+  The LHS gives the return on the riskless bond. The RHS gives the expected return on the risky bond. With probability p, there is default
+
+  Reorganizing and solving for x (the risk premium), gives us
+  x = (1 + i)p / (1 - p)
+  So for example, if the interest rate on a riskless bond is 4%, and p(default) = 2%, then the required risk premium is 2.1%
+
+- The degree of *risk aversion* of the bond holders. Add a value \epsilon on top of the risk premium above that increases as the risk aversion increases
+
+* The Role of Financial Intermediaries
+
+Much of the borrowing and lending takes place through financial intermediaries, which are financial institutions that receive funds from
+some investors and then lend these funds to others. Among these institutions are banks, mortgage companies, money market funds, and hedge funds.
+
+** The Choice of Leverage
+
+The *capital ratio* of a bank is defined as the ratio of its capital to its assets. So for a bank with 20 capital and 100 assets, it would be 20/100 = 20%.
+The *leverage ratio* of a bank is defined as the ratio of assets to capital, so the inverse of capital ratio, or 100/20 = 5.
+It is traditional to think in terms of leverage and to focus on the leverage ratio.
+
+In thinking about what leverage ratio it should choose, the bank has to balace 2 factors:
+A higher leverage ratio implies a higher expected profit rate
+It also implies a higher risk of bankruptcy
+
+** Liquidity
+
+
+The lower the liquidity of the assests (i.e. the more difficult they are to sell), the higher the risk of fire sales and the risk that
+the bank becomes insolvent and goes bankrupt. The higher the liquidity of the liabilities (i.e. the easier it is for investors to get their
+funds at short notice), the higher the risk of fire sales as well, and the risk that the bank becomes insolvent and goes bankrupt.
+
+* 6-4 Extending the IS-LM Model
+
+We must distinguish between the nominal interest rate and the real interest rate
+We must distinguish the policy rate set by the central bank and the interest rate faced by borrowers
+
+We can capture these 2 aspects by rewriting the IS-LM in the following way:
+
+IS relation: Y = C(Y - T) + I(Y, i - \pi^e + x) + G
+LM relation: i = \bar{i}
+
+where \pi^e is the presence of expected inflation and x is the risk premium
+
+- The expected inflation term reflects the fact that spending decisions depend, all other things equal, on the real interest rate, r = i - \pi^e, rather than on the nominal rate.
+- The risk premium, x, captures the factors: probability of default and level of risk aversion
+
+We can call the rate in the LM equation the (nominal) *policy rate* (because it is determined by monetary policy), and that of the IS equation the (real) *borrowing rate* (because it is the rate at which consumers and firms can borrow).
+
+Although the central bank formally chooses the nominal interest rate, it can choose it in such a way as to achieve the real interest rate it wants.
+Thus, we can think of the central banks as choosing the real policy rate directly and rewrite the two equations as:
+
+IS: Y = C(Y - T) + I(Y, r + x) + G
+LM: r = \bar{r}
+
+** Financial Shocks and Policies
+
+Suppose that x (risk aversion) increases. At the same policy rate r, the borrowing rate, r + x, increases, leading to a decrease in demand and output.
+Problems in the financial system lead to a recession and a financial crisis becomes a macroeconomic crisis.
+
+What can policy do? Fiscal policy, (an increase in G (govt spending) or a decrease in T (taxes)), can shift the IS curve to the right and increase output.
+Given that the cause of the low output is that the interest rate for borrowers is too high, monetary policy may be a better tool. A sufficient decrease in
+the interest rate can, in principle, be enough to keep output at its initial level. In the face of the increase in risk aversion x, the central bank must
+decrease r s.t. r + x remains unchanged

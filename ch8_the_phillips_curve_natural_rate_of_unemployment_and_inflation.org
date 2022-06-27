@@ -1,0 +1,113 @@
+#+TITLE: Chapter 8: The Phillips Curve, the Natural Rate of Unemployment, and Inflation
+
+8-1 shows how the model of the labor market we saw previously implies a relation between inflation, expected inflation, and unemployment
+8-2 uses this relation to interpret the mutations of the Phillips curve over time
+8-3 shows the relation between the Phillips curve and the natural rate of unemployment
+8-4 further discusses the relation between unemployment and inflation across countries and over time
+
+Basic message: Low unemployment puts upward pressure on inflation, but the form of the relation depends very much on how people and firms form expectations.
+
+* 8-1 Inflation, Expected Inflation, and Unemployment
+
+In ch. 7 we derived the following equation for wage determination:
+
+W = P^e F(u, z)
+
+where the nominal wage W, set by wage setters, depends on the expected price level, P^e, the unemployment rate, u, and a variable, z, that captures all the other factors that affect wage determination.
+
+We can assume a specific form for F:
+
+F(u, z) = 1 - \alpha u + z
+
+where \alphaaptures the strength of the effect of unemployment on the wage. We can make the following substitution:
+
+W = P^e (1 - \alpha u + z)
+
+We also derived the following equation for price determination:
+
+P = (1 + m) W
+
+where the price, P, set by firms, is equal to the nominal wage W times 1 plus the markup m
+
+Replacing the nominal wage in the second equation by its expression from the first gives:
+
+P = P^e (1 + m)(1 - \alpha u + z)
+
+This gives us a relation between the price level, the expected price level, and the unemployment rate.
+
+Let pi denote the inflation rate, and pi^e the expected inflation rate. Then the equation above can be rewritten as a relation between inflation, expected inflation, and the unemployment rate:
+
+pi = pi^e + (m + z) - \alpha u
+
+This is one of the most important equations in macroeconomics. Here are some of the effects at work:
+
+- An increase in expected inflation, \pi^e, leads to an increase in actual inflation, \pi
+- Given expected inflation, \pi^e, an increase in the markup, m, or an increase in the factors that affect wage determination - an increase in z - leads to an increase in actual inflation, \pi.
+- Given expected inflation, \pi^e, a decrease in the unemployment rate, u, leads to an increase in actual inflation, \pi
+
+We will rewrite the equation above to account for time indices,
+
+\pi_t = \pi_t^e + (m + z) - \alpha u_t
+
+* 8-2 The Phillips Curve and its Mutations
+
+** The Original Phillips Curve
+
+Assume that inflation varies from year to year around some value pibar. Assume also that inflation is not persistent, so that inflation this year is not a good predictor of inflation next year. In this case, inflation this year will simply be equal to pibar, and expected inflation also equals pibar and eq 8.3 becomes
+
+\pi_t = pibar + (m + z) - \alpha u_t
+
+In this case, we should observe a negative relation between unemployment and inflation.
+
+** The De-anchoring of Expectations
+
+The Phillips curve relation held well for the years 1961 - 1969. It fell apart after 1970.
+
+The explanation given by the book is that the original Phillips curve vanished becase wage setters changed the way they formed their expectations about inflation.
+
+Suppose expectations of inflation are informed according to
+
+expected inflation = (1 - theta) pibar + theta pi_{t - 1}
+
+In words: Expected inflation this year depends partly on a constant value pibar with weight 1 - theta, and partly on inflation last year, which we denote pi_{t - 1}, with weight theta. The higher the value of theta, the more last year's inflation leads workers and firms to revise their expectations of what inflation will be this year, and so the higher the expected inflation rate.
+
+Now we can turn to the implications of different values of theta for the relation between inflation and unemployment.
+
+pi_t = (1 - theta) pibar + theta pi_t-1 + (m + z) - \alpha u_t
+
+When theta = 0, we get the original Phillips curve
+When theta > 0, the inflation rate depends not only on the unemployment rate, but also on last year's inflation rate
+When theta = 1, the relation becomes pi_t - pi_t-1 = (m + z) - \alpha u_t
+  So when theta = 1, *the unemployment rate affects not the inflation rate, but rather the change in inflation rate*.
+  High unemployment leads to decreasing inflation; low unemployment leads to increasing inflation
+
+So, instead of a relation between the inflation rate and the unemployment rate, the Phillips curve took the form of a relation between the change in the inflation rate and the unemployment rate. To distinguish it from the original Phillips curve, it became known as the *accelerationist Phillips curve*.
+
+** 8-3 The Phillips Curve and the Natural Rate of Unemployment
+
+By definition, the natural rate of unemployment is the unemployment rate at which the actual price level is equal to the expected price level.
+Equivalently, the natural rate of unemployment is the unemployment rate such that the actual inflation rate is equal to the expected inflation rate.
+Denote the natural rate of unemployment by u_n, and impose the condition that actual inflation and expected inflation be the same (pi = pi^e), gives us
+
+0 = (m + z) - alpha u_n
+
+->
+
+u_n = (m + z) / alpha
+
+The higher the markup m, or the higher the factors that affect wage setting, z, the higher the natural rate of unemployment.
+
+We can rewrite equation 8.3 as
+
+pi_t - pi_t^e = - alpha (u_t - u_n)
+
+This links the inflation rate, the expected inflation rate, and the deviation of the unemployment rate from the natural rate.
+It says that, if unemployment is at the natural rate, then inflation will be equal to expected inflation. If unemployment is below the
+natural rate, inflation will be lower than expected.
+
+** 8-4 A Summary and Many Warnings
+
+There is a relation between inflation and unemployment, but it is a complex one.
+The natural unemployment rate itself moves over time
+The relation between unemployment and inflation can completely disappear when inflation becomes very high
+It can also disappear when inflation becomes low and turns into deflation.

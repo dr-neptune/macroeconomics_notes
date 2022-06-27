@@ -1,0 +1,148 @@
+#+TITLE: Chapter 2: A Tour of the Book
+
+The 3 central macroeconomic variables are output, unemployment, and inflation
+
+* 2.1 : Aggregate Output
+
+National and product accounts (or national income accounts) are measures of aggregate output that are published on a regular basis in the US since 1847
+
+** GDP: Production and Income
+
+The measure of *aggregate output* in the national income accounts is called the *gross domestic product (GDP)*.
+
+*** Definitions: GDP
+
+1. GDP is the value of the *final* goods and services produced in the economy during a given period
+
+This way we can construct GDP by recording and adding up the production of all final goods.
+
+Alternatively:
+
+2. GDP is the sum of value added in the economy during a given period
+
+The *value added* by a firm is defined as the value of its production minus the value of the intermediate goods used in production
+
+3. GDP is the sum of incomes in the economy during a given period
+
+In this case, we consider both labor income (how much workers are paid) and capital income (how much goes to the firm / capital owners)
+This final definition is from the /income/ side, whereas the first two are from the /production side/
+
+*** Nominal and Real GDP
+
+*Nomial GDP* is the sum of the quantities of final goods produced times their current price.
+
+This makes it clean that nominal GDP increases over time for 2 reasons:
+1. The production of most goods increases over time
+2. The price of most goods also increases over time
+
+When constructing GDP in practice, it must be defined as a weighted average of the output of all final goods
+
+The /relative prices/ of the goods would appear to be the natural weights. The measure of real GDP in the US national income
+accounts uses weights that reflect relative prices and change over time. The measure is called *real GDP in chained (2012) dollars*.
+
+The nomimnal and real GDP each have many synonyms
+
+- nominal GDP is also called *dollar GDP* or *GDP in current dollars*
+- real GDP is also called *GDP in terms of goods, GDP in constant dollars, GDP adjusted for inflation, GDP in chained (2012) dollars, GDP in 2012 dollars*
+
+In the chapters that follow, GDP will refer to real GDP and $Y_t$ will denote real GDP in year t
+Nominal GDP, and variables measured in current dollars, will be denoted by a dollar sign in front of them (i.e. $Y_t for nominal GDP in year t)
+
+*** GDP: Level vs. Growth Rate
+
+Equally important to the level of real GDP is the level of *real GDP per person*, which is the ratio of real GDP to the population of the country. This metric gives the standard of living of the country.
+
+In assessing the performance of the economy from year to year, economists focus on the rate of growth of real GDP, often called just *GDP Growth*. Periods of positive  and negative growth are called *expansions* and *recessions*, respectively.
+
+* The Unemployment Rate
+
+Labor Force = Employment + Unemployment
+L = E + U
+
+The unemployment rate is the ratio of the # of people who are unemployed to the number of people in the labor force: u = U/L
+
+Today most rich countries rely on large surveys of households to compute the unemployment rate. In the US, this is called the *current population survey*.
+It relies on interviews of 60,000 households every month.
+
+* The Inflation Rate
+
+*Inflation* is a sustained raise in the general level of prices - the *price level*. The *inflation rate* is the rate at which the price level increases.
+Symmetrically, *deflation* is a sustained decline in price level. It corresponds to a negative inflation rate.
+
+Macroeconomists typically look at two measures of the price level, two /price indexes/: the GDP deflator and the Consumer Price Index
+
+** The GDP Deflator
+
+The *GDP deflator* in year t, Pt, is defined as the ratio of nominal GDP to real GDP in year t:
+
+Pt = Nominal GDP_t / Real GDP_t = $Y_t / Y_t
+
+Note that, in the year in which, by construction, real GDP is equal to nominal GDP (2012 in the us), this definition implies that the price level is equal to 1.
+The GDP deflator is an *index number*.
+
+One advantage of defining the price level as the GDP deflator is that it implies a simple relation between nominal GDP, real GDP, and the GDP deflator.
+
+$Y_t = P_t*Y_t
+
+Nominal GDP is equal to the GDP deflator times real GDP, or the rate of growth of nominal GDP is equal to the rate of inflation plus the rate of growth of real GDP.
+
+** The Consumer Price Index
+
+The GDP deflator gives the average price of output - the final goods produced in the economy - but consumers care about the average price of consumption.
+The two prices needn't be the same: the set of goods produced in the economy is usually not the same as the set of goods purchased by consumers.
+
+To measure the average price of consumption, or, equivalently, the *cost of living*, macroeconomists look at the *consumer price index*.
+
+The CPI is published monthly and it gives the cost in dollars of a specific list of goods and services over time. The list attempts to represent the
+consumption basket of a typical urban consumer and is updated every 2 years.
+
+Each month the Bureau of Labor Statistics (BLS) employees visit stores to find out what has happened to the price of the goods on the list;
+prices are collected for 211 items in 38 cities. These prices are then used to construct the CPI.
+
+Like the GDP deflator, the CPI is an index. It is set equal to 100 in the period chosen as the base period (which is currently 1982 - 1984).
+
+** Why do economists care about Inflation?
+
+During periods of inflation, not all prices and wages rise proportionately. Because they don't, inflation affects income distribution.
+
+Variations in relative prices also lead to more uncertainty, making it harder for firms to make decisions about the future, such as investment decisions.
+Taxation interacts with inflation to create more distortions. In tax brackets are not adjusted for inflation, people move into higher and higher tax brackets as their nominal income increases, even if their real income remains the same.
+
+Deflation can also be similarly bad, since it limits the ability of monetary policy to affect output.
+
+Most macroeconomists believe the best rate of inflation is low and stable, somewhere between 1% and 4%.
+
+* Output, Unemployment, and the Inflation Rate: Okun's Law and the Phillips Curve
+
+** Okun's Law
+
+Okun's law suggests that if output growth is high, unemployment will decrease.
+
+This idea has a simple implication: The key to decreasing unemployment rate is a high enough rate of growth.
+
+The plot this is based on shows an x intercept at 0.5. This suggests it takes an annual growth rate of about 2% to keep unemployment constant.
+
+** The Phillips Curve
+
+When unemployment becomes very low, the economy is likely to /overheat/, and this will lead to upward pressure on inflation.
+This is known as the Phillips Curve (should probably be named the Phillips relation)
+
+Lower unemployment -> higher inflation
+Higher unemployment -> lower inflation
+
+* The Short Run, The Medium Run, and The Long Run
+
+What determines the level of aggregate output in an economy? Consider 3 answers:
+1. Movements in output come from movements in the demand for goods
+2. What matters when it comes to aggregate output is the supply side - how much the economy can produce
+3. The true determinants of output are factors like a country's education system, its savings rate, and the quality of its government.
+
+
+- In the *short run*, the first answer is the right one. Year to year movements in output are primarily driven by movements in demand.
+  Changes in demand can lead to a decrease in output (a recession) or an increase in output (an expansion)
+
+- In the *medium run*, say, a decade, the second answer is the right one. In the medium run, the economy tends to return to the level of output
+  determined by supply factors: the capital stock, the level of technology, and the size of the labor force.
+
+- In the *long run*, say, a few decades or more, the third answer is the right one. A good example is China, and to understand both the capital stock
+  and the level of technology in China, we must look at factors like the education system, the savings rate, and the role of government.

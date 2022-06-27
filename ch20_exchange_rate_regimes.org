@@ -1,0 +1,109 @@
+#+TITLE: Chapter 20: Exchange Rate Regimes
+
+*20-1* looks at the medium run. An economy ends up with the same real exchange rate and output level in the medium run, whether is operates under fixed or flexible exchange rates
+
+*20-2* takes another look at fixed exchange rates, with a focus on exchange rate crises.
+
+*20-3* takes another look at flexible exchange rates
+
+*20-4* puts all the analysis together and reviews the case for flexible or fixed rates
+
+Basic Message: There is no perfect exchange rate regime. Both fixed and flexible exchange rates have advantages and shortcomings.
+
+* 20-1 The Medium Run
+
+In the medium run, the economy reaches the same real exchange rate and the same level of output whether it operates under a fixed or flexible exchange rate
+
+The definition of the real exchange rate is:
+
+$\epsilon = \frac{EP}{P^*}$
+
+where the real exchange rate ($\epsilon$) is equal to the nominal exchange rate ($E$, the price of domestic currency in terms of foreign currency) times the domestic price level ($P$), divided by the foreign price level ($P^*$).
+
+There are 2 ways in which the real exchange rate can adjust:
+
+- through a change in the nominal exchange rate E. By definition, this can only be done under flexible exchange rates.
+- through a change in the domestic price level, P, relative to the foreign price level P^*. In the medium run, as prices adjust,
+  this option is open to even a country operating under a fixed (nominal) exchange rate. The adjustment takes place through the
+  price level rather than through the nominal exchange rate.
+
+** The IS Relation under Fixed Exchange Rates
+
+In an open economy under fixed exchange rates, we can write the IS relation as
+
+$Y = Y(\frac{\bar{E}P}{P^*}, G, T, i^* - \pi^e, Y^*)$ with $(-, +, -, -, +)$
+
+** Equilibrium in the Short and the Medium Run
+
+In the short run, a fixed nominal exchange rate implies a fixed real exchange rate
+In the medium run, the real exchange rate can adjust even if the nominal exchange rate is fixed. This adjustment is achieved through movements in relative price levels over time.
+
+** The Case for and Against a Devaluation
+
+Whenever a country under fixed exchange rates faces either a large trade deficit or a severe recession, there is heavy political pressure either to give up the fixed exchange rate regime altogether, or to have a one-time devaluation.
+
+* 20-2 Exchange Rate Crises Under Fixed Exchange Rates
+
+Suppose a country has chosen to operate under a fixed exchange rate and that investors start believing there may soon be an exchange rate adjustment - either a devaluation or a shift to a flexible exchange rate regime accompanied by a depreciation.
+
+As soon as financial markets believe a devaluation may be coming, then maintaining the exchange rate requires an increase - often a large one - in the domestic interest rate.
+
+Expectations that a devaluation may be coming can trigger an exchange rate crisis. Faced with such expectations, the government has two options:
+
+- give in and devalue
+- fight and maintain the parity, at the cost of very high interest rates and a potential recession
+
+* 20-3 Exchange Rate Movements Under Flexible Exchange Rates
+
+In reality, the relation between the interest rate and the exchange rate is not so simple. Exchange rates often move even in the absence of movements in interest rates. Furthermore, the size of the effect of a given change in the interest rate on the exchange rate is hard to predict. This makes it much harder for monetary policy to achieve its desired outcome.
+
+The current exchange rate depends on this year's domestic and foreign interest rates, on next year's domestic and foreign rates, and so on
+
+$E_t = \frac{(1 + i_t^e) ... (1 + i_{t + n}^e)}{(1 + i_t^{*e}) ... (1 + i_{t + n}^{*e})} E_{t + n + 1}^e$
+
+- the level of today's exchange rate will move one for one with the future expected exchange rate
+- today's exchange rate will move when future expected interest rates move in either country
+- because today's exchange rate moves with any change in expectations, the exchange rate will be volatile
+
+** Exchange Rates and the Current Account
+
+The effect of any change in the expected future exchange rate on the current exchange rate is one-for-one
+
+** Exchange Rates and the Current and Future Interest Rates
+
+Any factor that moves current or expected future domestic or foreign interest rates between years t and t + n also moves the current exchange rate.
+
+* 20-4 Choosing Between Exchange Rate Regimes
+
+The concensus among economists and policymakers:
+
+In general, flexible exchange rates are prefereable. There are 2 exceptions:
+1. When a group of countries is already tightly integrated, a common currency may be the right solution
+2. When the central bank cannot be trusted to follow a responsible monetary policy under flexible exchange rates, a strong form of
+   fixed exchange ratese, such as a currency board or dollarization, may be the right solution
+
+** Common Currency Areas
+
+Robert Mundell, who looked at the conditions under which a set of countries might want to operate under fixed exchange rates or even adopt a common currency, argued that for countries to constitute an *optimal currency area*, they need to satisfy 1 of 3 conditions:
+
+- The countries must experience similar shocks
+- If the countries experience different shocks:
+  - prices and wages must be very flexible, allowing a country to decrease prices relative to other members
+  - they must have a high factor mobility, i.e. allowing workers to move from countries that are doing poorly to countries that are doing well
+
+** Hard Pegs, Currency Boards, and Dollarization
+
+The second case for fixed exchange rates is based on the argument that there may be times when a country may want to limit its ability to use monetary policy.
+
+An example is a country that had very high inflation in the recent past, and now wishes to reduce money growth and inflation. One way to convince financial markets that it is serious about doing this is to fix its exchange rate. The need to use monetary policy to maintain the parity then ties the hands of the monetary authority. To the extent that financial markets expect the parity to be maintained, they will stop worrying about money growth being used to finance the budget.
+
+To convince financial investors that not only is the exchange rate fixed today, but it will remain so in the future, a country can:
+
+- make the fixed exchange rate part of a more general macroeconomic package
+- make it symbolically or technically harder to change the parity, an approach known as a *hard peg*
+
+An extreme form of a hard peg is *dollarization*, in which a country replaces the domestic currency with a foreign currency.
+
+A less extreme way is to use a *currency board*, in which a central bank stands ready to exchange foreign currency for domestic currency at the official exchange rate set by the government.
+
+Furthermore -- and this is the difference with a standard fixed exchange rate regime -- the central bank cannot engage in open market operations (that is, buy or sell government bonds)

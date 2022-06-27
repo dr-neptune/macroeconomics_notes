@@ -1,0 +1,13 @@
+#+TITLE: Chapter 21: Should Policymakers Be Restrained?
+
+
+Basic Message: It is useful to think of policy as the outcome of games between policymakers and the economy, between policymakers and voters, and among policymakers. As a result, there is a case for putting restraints on policymakers
+
+* 21-1 Uncertainty and Policy
+
+The first argument in favor of policy restraints is that those who know little should do little
+There is substantial uncertainty about the effects of macroeconomic policies. Policies should be broadly aimed at avoiding large prolonged recessions, slowing down booms, and avoiding inflationary pressure. The higher unemployment or the higher inflation, the more active the policies should be.
+
+* 21-2 Expectations and Policy
+
+Unlike a machine, the economy is composed of people and firms who try to anticipate what policymakers will do, and who react not only to current policy but also to expectations of future policy. Hence, macroeconomic policy must be thought of as a *game* between the policy makers and the economy (the people and firms of the economy). When thinking about policy, what we need is not *optimal control theory*, but rather *game theory*.

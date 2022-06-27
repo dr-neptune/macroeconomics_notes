@@ -1,0 +1,159 @@
+#+TITLE: Saving, Capital Accumulation, and Output
+
+This chapter focuses on the effects of the savings rate on the level and growth rate of output
+
+11-1 and 11-2 look at the interactions between output and capital accumulation and the effects of the saving rate.
+11-3 plugs in numbers to give a better sense of the magnitudes involved
+11-4 extends our discussion to take into account not only physical but also human capital
+
+Basic Message: Capital accumulation increases output, but cannot by itself sustain growth
+
+* 11-1 Interactions Between Ouput and Capital
+
+At the center of the determination of output are two relations between output and capital:
+
+- The amount of capital determines the amount of output being produced
+- The amount of output being produced determines the amount of saving and, in turn, the amount of capital being accumulated over time
+
+** The Effects of Capital on Output
+
+In chapter 10, we introduced the aggregate production function, and we saw that under the assumption of constant returns to scale, we could write the following relation between output and capital per worker:
+
+Y/N = F(K/N, 1)
+
+Output per worker (Y/N) is an increasing function of capital per worker (K/N).
+
+In this chapter we make 2 further assumptions:
+
+- The size of the population, the participation rate, and the unemployment rate are all constant
+  - under this assumption, output per worker, output per person, and output itself all move proportionately
+- There is no technological progress, so the production function F does not change over time
+  - this is to focus on the role of capital accumulation
+
+With these 2 assumptions, our first relation between output and capital per worker, from the production side, can be written as:
+
+Y_t/N = f(K_t/N)
+
+where we have introduced time indexes for output and capital - but not for labor, N, which we assume to be constant.
+
+In words: Higher capital per worker leads to higher output per worker
+
+** The Effects of Output on Capital Accumulation
+
+To derive the second relation between output and capital accumulation, we proceed in 2 steps:
+
+1. We derive the relation between output and investment
+2. We derive the relation between investment and capital accumulation
+
+*** Output and Investment
+
+To derive the relation between output and investment, we make 3 assumptions:
+1. The economy is closed (I = (S + T - G)) Investment = the sum of private saving S and public saving T - G
+2. To focus on private saving, we let T-G = 0 making our equation I = S
+3. We assume that private saving is proportional to income, so S = sY where s is the saving rate and is in [0, 1]
+
+We end up with I_t = sY_t, meaning investment is proportional to output; the higher output is, the higher saving and investment are
+
+*** Investment and Capital Accumulation
+
+The second step relates investment, which is a flow, to capital, which is a stock.
+
+The evolution of the capital stock is given by:
+
+K_{t + 1} = (1 - \delta)K_t + I_t
+
+Replacing investment by the expression above, and dividing both sides by N (the number of workers in the economy) gives us
+
+K_{t + 1} / N = (1 - \delta) K_t / N + s Y_t / N
+
+In words: Capital per worker at the beginning of year t + 1 is equal to capital per worker at the beginning of year t, adjusted for depreciation,
+plus investment per worker during year t, which is equal to the saving rate times output per worker during year t
+
+* 11-2 The Implications of Alternative Savings Rates
+
+** Dynamics of Capital and Output
+
+change in capital from year t to year t + 1 = investment during year t - depreciation during year t
+
+If investment per worker exceeds depreciation per worker, the change in capital per worker is positive
+Likewise, if investment per worker is less than depreciation per worker, the change in capital per worker is negative
+
+In the long run, the levels of output per worker and capital per worker reach a steady state in which they do not change.
+
+** The Saving Rate and Output
+
+How does the saving rate affect the growth rate of output per worker?
+Our analysis leads us to a 3 part answer:
+
+1. The saving rate has no effect on the long-run growth rate of output per worker, which is equal to 0
+2. The saving rate determines the level of output per worker in the long run
+3. An increase in the saving rate will lead to higher growth of output per worker for some time, but not forever
+
+We have derived these 3 results under the assumption that there is no technological progress, and therefore, no growth of output per worker in the long run.
+
+** The Saving Rate and Consumption
+
+Governments can affect the saving rate in various ways.
+1. They can vary public saving
+2. They can use taxes to affect private saving
+
+What saving rate should governments aim for? To think about the answer, we must shift our focus from the behavior of output
+to the behavior of consumption. What matters to people is not how much is produced, but how much they consume.
+
+There must be some value of the saving rate between 0 and 1 that maximizes the steady-state level of consumption.
+Increases in the saving rate below this value lead to a decrease in consumption initially, but they lead to an increase in consumption in the long run.
+Increases in the saving rate beyond this value decrease consumption not only initially, but also in the long run
+
+The level of capital associated with the value of saving rate that yields the highest level of consumption in steady state is known
+as the *golden-rule level of capital*.
+
+* 11-3 Getting a Sense of Magnitudes
+
+Output per worker equals the square root of capital per worker, given a steady-state with a Cobb-Douglas production function.
+
+** The Effects of the Saving Rate on Steady-State Output
+
+How big an impact does an increase in the saving rate have on the steady-state level of output per worker?
+
+Using the same Cobb-Douglas production function, steady-state capital per worker is equal to the square of the ratio of the saving rate to the depreciation rate
+
+K*/N = (s/\delta)^2
+
+** The Dynamic Effects of an Increase in the Saving Rate
+
+How long does it take for output to reach its new steady-state level? Put another way, by how much and for how long does an increase in the saving rate affect the growth rate?
+
+We can get the answer by plotting the output, particularly growth rate of output per worker against time.
+
+** The US Saving Rate and the Golden Rule
+
+What is the saving rate that would maximize steady-state consumption per worker?
+Mathematically, steady-state consumption per worker is largest when s = 1/2.
+
+* 11-4 Physical vs. Human Capital
+
+*Human capital* is the skills of the workers in the economy. How do we think about the effect of human capital on output?
+How does the introduction of human capital change our earlier conclusions?
+
+** Extending the Production Function
+
+We modify our production function to allow for human capital:
+
+Y/N = f(K/N, H/N)
+
+** Human Capital, Physical Capital, and Output
+
+How does the introduction of human capital change the analysis of the previous sections?
+Our conclusions about physical capital accumulation remain valid. An increase in the saving rate increases
+steady-state physical capital per worker, and therefore increases output per worker. Our conclusions now extend
+to human capital accumulation as well.
+
+In this case, an increase in savings in the form of human capital is through education and on-the-job training.
+
+Countries that save more or spend more on education can achieve substantially higher steady-state levels of output per worker
+
+** Endogenous Growth
+
+Lucas and Romer have explored the possibility that the joint accumulation of physical capital and human capital might be enough to sustain growth.
+
+Models that generate steady growth even without technological progress are called *models of endogenous growth*.

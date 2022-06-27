@@ -1,0 +1,155 @@
+#+TITLE: Chapter 7: The Labor Market
+
+Basic Message: The natural rate of unemployment is the rate at which the wage demands of workers are consistent with the price decisions of firms
+
+7-1 provides an overview of the labor market
+7-2 focuses on unemployment, how it moves over time, and how its movements affect individual workers
+7-3 and 7-4 look at wage and price determination
+7-5 looks at equilibrium in the labor market. It characterizes the /natural rate of unemployment/, which is the rate of unemployment to which the
+    economy tends to return in the medium run
+7-6 gives of map of where we will be going next
+
+* 7-1 A Tour of the Labor Market
+
+The number of people potentially available for civilian employment is called the *non-institutional civilian population*
+The sum of those either working or looking for work is called the civilian *labor force* as opposed to the *out of the labor force* population
+The ratio of the labor force to the non-institutional civilian population is called the *participation rate*
+
+The ratio of the unemployed to the labor force is the *unemployment rate*
+
+* 7-2 Movements in Unemployment
+
+year-to-year movements in the unemployment rate are closely associated with recessions and expansions.
+
+How do these fluctuations in the overall unemployment rate affect individual workers?
+The answer determines both
+- the effect of movements in the aggregate unemployment rate on the welfare of indiviual workers
+- the effect of the aggregate unemployment rate on wages
+
+In response to a decrease in demand, firms can either hire fewer new workers, or they can lay off the workers they currently employ
+
+When unemployment is high, workers are worse off in 2 ways:
+- Unemployed workers face a lower probability of becoming employed; equivalently, they can expect to remain unemployed for a longer time
+- employed workers face a higher probability of becoming unemployed
+
+* 7-3 Wage Determination
+
+** Bargaining
+
+How much *bargaining power* workers have depends on 2 factors:
+
+- How costly would it be for the firm to find other workers were they to leave the firm
+- How hard would it be for them to find another job were they to leave the firm
+
+Most firms want their workers to feel good about their jobs. Feeling good promotes good work, which leads to higher productivity.
+Paying a high wage is one instrument the firm can use to achieve these goals. Economists call the theories that link the productivity
+or efficiency of workers to the wage they are paid *efficiency wage theories*
+
+** Wages, Prices, and Unemployment
+
+We can capture our discussion of wage determination by using the following equation:
+
+W = P^e F(u, z)
+
+The aggregate nominal wage W depends on 3 factors:
+- The expected price level, P^e
+- The unemployment rate, u
+- A catch-all variable, z, that stands for all other variables that may affect the outcome of wage setting
+
+** The Expected Price Level P^e
+
+Why does the price level affect nominal wages? Because both workers and firms care about *real wages*, not nominal wages
+
+- Workers do not care about how many dollars they receive, but about how many goods they can buy with those dollars. In other
+  words, they care about the nominal wages (W) they receive relative to the price of the goods they buy (P). They care about *W/P*.
+
+- Firms also care about W/P
+
+** The Unemployment Rate
+
+If we think of wages as being determined by bargaining, then higher unemplyment weakens workers' bargaining power, forcing them to accept lower wages.
+If we think of wages as being determined by efficiency wage considerations, then higher unemplyment allows firms to pay lower wages and still keep workers
+willing to work
+
+** The Other Factors
+
+The third variable in our wage determination equation, z, is a catch-all variable that stands for all the factors that affect wages given the expected
+price level and the unemployment rate. We will define z s.t. an increase in z implies an increase in the wage.
+
+Some examples are unemployment insurance and employment protection
+
+* 7-4 Price Determination
+
+The prices set by firms depend on the costs they face. These costs depend, in turn, on the nature of the *production function*, which is the relation
+between the inputs used in production, the quantity of output produced, and the prices of these inputs.
+
+We will write the production function as follows:
+
+Y = A N
+
+where Y is output, A is labor productivity, and N is employment. This way of writing the production function implies that labor productivity, which is
+defined as output per worker, is constant.
+
+If there was perfect competition in the goods market, the price of a unit of output would be equal to marginal cost: P = W. But many goods markets are
+not competitive, and firms charge a price higher than their marginal cost. A simple way of capturing this fact is to assume that firms set their price
+according to
+
+P = (1 + m)W
+
+where m is the *markup* of the price over the cost.
+
+* 7-5 The Natural Rate of Unemployment
+
+Assume that nominal wages depend on the actual price level, P, rather than the expected price level P^e. Under this additional assumption, wage setting
+and price setting determine the equilibrium rate of unemployment, also called the *natural rate of unemployment*.
+
+** The Wage-Setting Relation
+
+With the assumption above, our wage determination becomes:
+
+W = P F(u, z)
+
+Then we have
+
+W/P = F(u, z)
+
+Wage determination implies a negative relation between the real wage, W/P, and the unemployment rate, u.
+
+*The higher the unemployment rate, the lower the real wage chosen by wage setters*
+
+We call the relation between the real wage and the rate of unemployment the *wage-setting relation*
+
+** The Price-Setting Relation
+
+Given P = (1 + m)W, we can derive:
+
+W/P = 1/(1 + m)
+
+This is the implied real wage. This says
+
+*Price-setting decisions determine the real wage paid by firms*
+
+An increase in the markup leads firms to increase their prices given the wage they have to pay;
+equivalently, it leads to a decrease in the real wage
+
+** Equilibrium Real Wages and Unemployment
+
+Equilibrium in the labor market requires that the real wage chosen in wage setting be equal to the real wage implied by price setting.
+
+We can also characterize the equilibrium unemployment rate algebraically; eliminating W/P between our equations above gives us:
+
+F(u_n, z) = 1 / (1 + m)
+
+The equilibrium unemployment rate, u_n, is such that the real wage chosen in wage setting is equal to the real wage implied by price setting.
+
+u_n is called the *natural rate of unemployment*. A better name for the equilibrium rate of unemployment would be the *structural rate of unemployment*
+
+* 7-6 Where We Go From Here
+
+Equilibrium in the labor market determines the equilibrium unemployment rate (called the natural rate of unemployment).
+The unemployment rate determines the employment rate, which determines the level of output.
+
+Keep in mind that this focus is on the *medium run*, as opposed to when we looked at the goods and financial markets which focused on the *short run*.
+
+In the short run, the factors that determine output are the factors we focused on in previous chapters: monetary policy, fiscal policy, and so on
+In the medium run, output tends to return to the natural level. The factors that determine unemployment, output are what we focused on in this chapter

@@ -1,0 +1,92 @@
+#+TITLE: Chapter 12: Technological Progress and Growth
+
+This chapter looks at the role of technological progress in growth.
+
+12-1 looks at the roles of technological progress and capital accumulation in growth
+12-2 turns to the determinants of technological progress, the role of research and development, and the role of innovation vs. imitation
+12-3 discusses why some countries are able to achieve steady technological progress while others do not. In so doing, it looks at the role
+     of institutions in sustaining growth.
+
+Basic Message: Sustained growth requires sustained technological progress. Technological progress depends both on innovation and on institutions.
+
+* 12-1: Technological Progress and the Rate of Growth
+
+In an economy in which there is both capital accumulation and technological progress, at what rate will output grow?
+
+** Technological Progress and the Production Function
+
+If we think of output as the underlying services provided by goods produced in the economy, we can think of technological progress as leading
+to increases in output for given amounts of capital and labor. We can then think of the *state of technology* as a variable that tells us how
+much output can be produced from given amounts of capital and labor at any time. If we denote the state of technology by A, we can rewrite the
+production function as
+
+Y = F(K, N, A)
+
+In our extended production function, output depends on capital, labor, and the state of technology (K, N, A).
+
+We can also treat the state of technology as a coefficient:
+
+Y = F(K, NA)
+
+This equation implies that we can think of technological progress in 2 equivalent ways:
+
+- Technological progress reduces the number of workers needed to produce a given amount of output.
+  If A doubles, firms can produce the same quantity of output with only half the original number of workers, N
+- Technological progress increases the output that can be produced with a given number of workers.
+  We can think of AN as the amount of *effective labor* in the economy.
+
+** Interactions between Output and Capital
+
+The level of investment needed to maintain a given level of capital per effective worker is given by:
+
+I = \delta K + (g_A + g_N)K = (\delta + g_A + g_N)K
+
+where:
+- \delta is the depreciation rate of captital
+- The rate of technological progress is g_A
+- The rate of population growth is g_N
+- K is capital
+- I is investment
+
+The growth of effective labor (AN) equals g_A + g_N
+
+** Dynamics of Capital and Output
+
+In the long-run, capital per effective worker reaches a constant level, and so does output per effective worker.
+The steady state of this economy is such that capital per effective worker and output per effective worker are constant
+and equal to (K/AN)* and (Y/AN)*, respectively.
+
+In steady state, the growth rate of output equals the rate of population growth (g_N) plus the rate of technological progress (g_A).
+By implication, the growth rate of output is independent of the saving rate
+
+In steady state, output per worker grows at the rate of technological progress
+
+Because output, capital, and effective labor all grow at the same rate (g_A + g_N) in steady state,
+the steady state of this economy is also called a state of *balanced growth*.
+
+On the balanced growth path:
+- capital per effective worker and output per effective worker are constant
+- capital per worker and output per worker are growing at the rate of technological progress g_A
+- labor is growing at the rate of population growth, g_N; capital and output are growing at a rate equal to the sum of
+  population growth and the rate of technological progress (g_A + g_N)
+
+** Back to the Effects of the Saving Rate
+
+In steady state, the growth rate of output depends /only/ on the rate of population growth and the rate of technological progress.
+Changes in the saving rate do not affect the steady-state growth rate. But changes in the saving rate do increase the steady-state
+level of output per effective worker.
+
+* 12-2 The Determinants of Technological Progress
+
+We have just seen that the growth rate of output per worker is ultimately determined by the rate of technological progress.
+What determines the rate of technological progress?
+
+Most technological progress in modern advanced economies is the result of firm's *research and development (R&D)* activities.
+
+** The Fertility of the Research Process
+
+The fertility of research depends on the successful interaction between basic research and applied research and development.
+
+* 12-3 Institutions, Technological Progress, and Growth
+
+You need good property rights (intellectual or otherwise) in order to incentivize companies to put money into R&D

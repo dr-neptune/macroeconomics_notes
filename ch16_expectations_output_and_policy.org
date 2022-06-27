@@ -1,0 +1,111 @@
+#+TITLE: Expectations, Output, and Policy
+
+In chapter 14, we saw how expectations affected asset prices, from bonds to stocks and houses.
+In chapter 15, we saw how expectations affected consumption decisions and investment decisions.
+In this chapter, we put the pieces together and take another look at the effects of monetary and fiscal policy.
+
+16-1 draws the major implication of what we have learned: expectations of both future output and future interest rates affect current spending, and therefore output
+16-2 looks at monetary policy. It shows that the effects of MP depend crucially on how changes in the policy rate today lead people and firms to change their expectations of future interest rates and future income, and, by implication, to change their spending decisions.
+16-3 looks at fiscal policy. It shows that a fiscal contraction can sometimes lead to an increase in output, even in the short run. How expectations respond to policy is at the center of the story.
+
+*Basic Message:* The effects of monetary and fiscal policy depend very much on how they affect expectations
+
+* 16-1 Expectations and Decisions: Taking Stock
+
+** Expectations, Consumption, and Investment Decisions
+
+The theme of chapter 15 was that both consumption and investment decisions depend very much on expectations of future income and interest rates.
+
+** Expectations and the IS Relation
+
+How do we write the IS relation for the current period?
+
+Previously we wrote:
+
+Y = C(Y - T) + I(Y, r + x) + G
+
+We now want to modify this to take into account how expectations affect both consumption and investment. We proceed in 2 steps:
+
+First, we make the eqn more compact:
+
+A(Y, T, r, x) = C(Y - T) + I(Y, r + x)
+
+where A stands for *aggregate private spending*, or simply *private spending*.
+With this notation we can rewrite the IS relation as:
+
+Y = A(Y, T, r, x) + G        (+,-,-,-)
+
+Aggregate private spending is:
+- an increasing fn of income Y: higher income increases both consumption and investment
+- a decreasing function of taxes T: higher taxes decrease consumption
+- a decreasing function of the real policy rate r: A higher real policy rate decreases investment
+- a decreasing function of the risk premium x: A higher risk premium increases the borrowing rate and decreases investment
+
+The second step is to modify the equation to take into account the role of expectations. We assume here that the risk premium = 0 and ignore it here.
+
+$Y = A(Y, T, r, Y^{'e}, T^{'e}, r^{'e}) + G$
+
+where prime denotes future values and the superscript $e$ denotes an expectation.
+So $Y^{'e}, T^{'e}, r^{'e}$ denote future expected income, future expected taxes, and future expected real interest rate, respectively.
+
+- Increases in either current or expected future income increase private spending
+- Increases in either current or expected future taxes decrease private spending
+- Increases in either the current or expected future real policy rate decrease private spending
+
+* 16-2 Monetary Policy, Expectations, and Output
+
+The interest rate that the Fed affects directly is the current real interest rate, r.
+So the LM curve is still given by the horizontal line at the real policy rate chosen by the Fed, called $\bar{r}$.
+
+The IS and LM relations are thus given by:
+
+IS: $Y = A(Y, T, r, Y^{'e}, T^{'e}, r^{'e}) + G$
+LM: $r = \bar{r}$
+
+** Monetary Policy Revisited
+
+The effects of monetary policy -- the effects of any type of macroeconomic policy, for that matter -- depend crucially on its effect on expectations.
+
+- If a monetary expansion leads financial investors, firms, and consumers to revise their expectations of future interest rates and output, then the
+  effects of the monetary expansion on output may be large
+- If expectations remain unchanged, the effects of the monetary expansion on output will be limited
+
+* 16-3 Deficit Reduction, Expectations, and Output
+
+Conclusions we reached in the core about the effects of a budget deficit reduction:
+
+- In the short run, a reduction in the budget deficit, unless it is offset by a monetary expansion, leads to lower private spending and a contraction in output
+- In the medium run, a lower budget deficit implies higher saving and higher investment
+- In the long run, higher investment translates into higher capital and thus higher output
+
+It is the adverse short-run effect that often deters governments from tackling their budget deficits.
+
+** The Role of Expectations about the Future
+
+Suppose the government decides to reduce the deficit, through decreases in both current spending, G, and future spending, G'e.
+
+Suppose first that the expectations of future output $Y^{'e}$ and the future interest rate $r^{'e}$ do not change. Then we get the answer:
+The decrease in government spending in the current period leads to a shift of the IS curve to the left, and so to a decrease in output.
+
+The crucial question is what happens to expectations.
+
+- In the medium run, a deficit reduction has no effect on output. It leads to a lower interest rate and higher investment
+- In the long run, higher investment leads to a higher capital stock and therefore a higher level of output
+
+The higher the proportion of output saved (or invested), the higher the capital stock, and thus the higher the level of output in the long run.
+
+We can think of our future period as including both the medium and the long run. If people, firms, and financial market participants have /rational expectations/, then, in response to the announcement of a deficit reduction, they will expect these developments to take place in the future. Thus, they will revise their expectation of future output $Y^{'e}$ up and their expectation of future interest rate $r^{'e}$ down.
+
+** Back to the Current Period
+
+Timing matters:
+This section suggests that credibly *backloading* the deficit reduction program toward the future, with small cuts today and larger cuts in the future, is more likely to lead to an increase in output. Announcing the need for painful cuts in spending, and then leaving them to the future is likely to reduce the program's *credibility*.
+
+Composition matters:
+How much of the reduction in the deficit is achieved by raising taxes and how much by cutting spending may be important
+
+The initial situation matters:
+If the government is a mess, reductions could spur growth in the short term
+
+Monetary policy matters:
+Even if it cannot offset the effect of an adverse shift in the IS curve, monetary policy can, by decreasing the policy rate, help reduce the adverse effects of the shift on output

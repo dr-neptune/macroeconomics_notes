@@ -1,0 +1,122 @@
+#+TITLE: Chapter 4: Financial Markets I
+
+Financial Markets play an essential role in the economy. They determine the cost of funds for firms, households, and the goverment, and in turn affect their spending decisions.
+
+Basic Message: In the short run, the central bank determines the interest rate
+
+* 4-1 The Demand for Money
+
+/Money/, which you can use for transactions, pays no interest.
+/Bonds/ pay a positive interest rate, but they cannot be used for transactions
+
+In this chapter, we look at only money and bonds. You can choose the proportion of money and bonds you want to have in your personal portfolio by considering:
+- Your level of transactions
+- The interest rate on bonds
+
+** Deriving the Demand for Money
+
+We can write the relation between the demand for money, nominal income, and the interest rate as:
+
+M^d = $Y L(i)
+
+The demand for money M^d is equal to nominal income $Y times a decreasing function of the interest rate L(i)
+The interest rate has a negative effect on money demand
+
+* 4-2 Determining the Interest Rate: I
+
+There are two types of money: checkable deposits, which are supplied by banks, and currency, which is supplied by the central bank
+In this section, we assume that the only money is currency.
+
+** Money Demand, Money Supply, and the Equilibrium Interest Rate
+
+Equilibrium in financial markets requires that money supply be equal to money demand, that M^d = M^s.
+Then M^s = $Y L(i)
+
+An increase in the supply of money by the central bank leads to a decrease in its interest rate. The decrease in interest rate
+increases the demand for money, so it equals the now larger money supply.
+
+For a given money supply, an increase in nominal income leads to an increase in the interest rate.
+At the initial interest rate, the demand for money exceeds the supply. The increases in the interest rate decreases the
+amount of money people want to hold and re-establishes equilibrium
+
+** Monetary Policy and Open Market Operations
+
+The way central banks typically change the supply of money is by buying or selling bonds in the bond market.
+If a central bank wants to increase the amount of money in the economy, it buys bonds and pays for them by creating money.
+If it wants to decrease the amount of money in the economy, it sells bonds and removes from circulation the money it receives
+in exhance for the bonds.
+These actions are called *open market operations* because they take place in the "open market" for bonds
+
+** Bond Prices and Bond Yields
+
+Suppose the bonds are one-year bonds -- bonds that promise a payment of a given number of dollars, say $100, a year from now.
+In the US, bonds issued by the government promising payment in a year or less are called *Treasury Bills, or T-bills*.
+
+Let the price of a bond today by $Pb. Then the interest rate on the bond is given by
+
+i = ($100 - $Pb) / $Pb
+
+For example, if $Pb = $99, then the interest rate = $1 / $99 = 1.0% / year
+
+The higher the price of the bond, the lower the interest rate
+Alternatively, the higher the interest rate, the lower the price today
+
+** Open Market Operations
+
+A recap:
+
+- The interest rate is determined by the equilibrium condition that the supply of money equals the demand for money
+- By changing the supply of money, the central bank can affect the interest rate
+- The central bank changes the supply of money through open market operations, which are purchases or sales of bonds for money
+- Open market operations in which the central bank increases the money supply by buying bonds leads to an increase in the price of bonds
+  and a decrease in the interest rate
+- Open market operations in which the central bank decreases the money supply by selling bonds leads to a decrease in the price of bonds
+  and an increase in the interest rate
+
+* 4-3 Determining the Interest Rate II
+
+In the real world, money includes not only currency but also checkable deposits, which are supplied by (private) banks.
+
+** What Banks Do
+
+Modern economies are characterized by the existence of many types of *financial intermediaries* -- institutions that receive funds from people and firms and use these funds to buy financial assets or to make loans to other people and firms.
+
+- Banks receive funds from people and firms who either deposit funds directly or have funds sent to their checking account
+  - The liabilities of the banks are therefore equal to the value of these checkable deposits
+
+- Banks keep as *reserves* some of the funds they receive.
+  - Banks hold reserves for 4 reasons
+    - There is no reason for inflows and outflows to be equal, so the bank must keep some cash on hand
+    - What the bank owes to other banks can be larger or smaller than what the other banks owe to it
+    - Banks are typically subject to reserve requirements, which require them to hold reserves in some proportion of their checkable deposits
+      - In the US, banks are required to hold at least 10% of the value of the checkable deposits
+    - In many countries (incl USA), the central bank now pays interest on reserves. The higher the interest rate on reserves, the more attractive they are
+
+- Loans represent ~ 70% of banks nonreserve assets, bonds account for the rest ~30%.
+
+** The Demand For and Supply Of Central Bank Money
+
+The liabilities of the central bank are the money it has issued, *central bank money*.
+
+- The demand for central bank money is now equal to the demand for currency by people plus the demand for reserves by banks
+- The supply of central bank money is under the direct control of the central bank
+- The equilibrium interest rate is such that the demand and the supply for central bank money are equal
+
+** The Demand for Central Bank Money
+
+Let theta be the *reserve ratio*, the amount of reserves banks hold per dollar of checkable deposits.
+Then we can hand wave our demand for reserves by banks as:
+
+H^d = theta M^d = theta $Y L(i)
+
+** The Federal Funds Market and the Federal Funds Rate
+
+The *federal funds market* is a market for bank reserves in which the interest rate adjusts to balance the supply and demand for reserves
+The interest rate determined in this market is called the *federal funds rate*. Because the Fed can in effect choose the federal funds rate by
+changing the supply of central bank money, H, the federal funds rate is typically thought of as the main indicator of US monetary policy.
+
+* 4-4 The Liquidity Trap
+
+There is an important caveat to the Feds ability to change the interest rate:
+The interest rate cannot go below 0, a constraint known as the *zero lower bound*. When the interest rate is down to zero,
+monetary policy cannot decrease it further. At this point, monetary policy no longer works and the economy is said to be in a *liquidity trap*.

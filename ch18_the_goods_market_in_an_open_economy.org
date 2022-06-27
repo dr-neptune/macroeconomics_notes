@@ -1,0 +1,132 @@
+#+TITLE: Chapter 18: The Goods Market in an Open Economy
+
+*18-1* characterizes equilibrium in the goods market for an open economy
+*18-2 - 18-3* show the effects of domestic shocks and foreign shocks on the domestic economy's output and trade balance
+*18-4* looks at the effect of a real depreciation on output and the trade balance
+*18-5* gives an alternative description of the equilibrium that shows the close connection among saving, investment, and the trade balance.
+
+Basic Message: Output depends on both domestic and foreign demand
+
+* 18-1 The IS relation in the Open Economy
+
+** The Demand for Domestic Goods
+
+In an open economy, the *demand for domestic goods*, $Z$, is given by
+
+$Z = C + I + G - IM/\epsilon + X$
+
+where:
+The total *domestic demand for goods* is:
+- $C$ is consumption
+- $I$ is investment
+- $G$ is government spending
+
+- $IM / \epsilon$ is imports in terms of domestic goods, where $\epsilon$ is the real exchange rate
+- $X$ is exports
+
+** The Determinants of C, I, and G
+
+Although the real exchange rate surely affects the composition of consumption spending between domestic and foreign goods, there is no obvious reason why it should affect the overall level of consumption.
+
+Domestic Demand: $C + I + G = C(Y - T) + I(Y, r) + G$
+
+** The Determinants of Imports
+
+Imports are the part of domestic demand that falls on foreign goods.
+They clearly depend on domestic income. They also clearly depend on the real exchange rate.
+
+$IM = IM(Y, \epsilon)$
+
+** The Determinants of Exports
+
+Exports are the part of foreign demand that falls on domestic goods.
+They depend on foreign income. They also depend on the real exchange rate
+
+$X = X(Y^*, \epsilon)$
+
+An increase in foreign income, $Y^*$, leads to an increase in exports
+An increase in the real exchange rate, $\epsilon$, leads to a decrease in exports
+
+* 18-2 Equilibrium Output and the Trade Balance
+
+The goods market is in equilibrium when domestic output equals the demand - both domestic and foreign - for domestic goods
+
+$Y = Z$
+
+Collecting the relations we derived for the components of the demand for domestic goods, $Z$, we get:
+
+$Y = C(Y - T) + I(Y, r) + G - IM(Y, \epsilon)/\epsilon + X(Y^*, \epsilon)$
+
+* 18-3 Increases in Demand - Domestic or Foreign
+
+How do changes in demand affect output in an open economy?
+
+** Increases in Domestic Demand
+
+Suppose the economy is in a recession and the government decides to increase spending in order to increase domestic demand and, in turn, output.
+What will be the effects on output and on the trade balance?
+
+An increase in government spending leads to an increase in output and a trade deficit. This is the same as the closed economy, with 2 major differences:
+- There is now an effect on the trade balance. An increase in output leads to a trade deficit, and exports do not change
+- Not only does government spending now generate a trade deficit, but the effect of government spending on output is smaller than it would be in a closed economy.
+
+Because the economy is open, an increase in demand now falls not only on domestic goods, but also on foreign goods. So when income increases, the effect on the demand for domestic goods is smaller than it would be in a closed economy. And because some of the increase in demand falls on imports - and exports are unchanged - the result is a trade deficit.
+
+** Increases in Foreign Demand
+
+An increase in foreign demand leads to an increase in output and a trade surplus.
+
+** Fiscal Policy Revisited
+
+- An increase in domestic demand leads to an increase in domestic output but also to a deterioration of the trade balance.
+- An increase in foreign demand leads to an increase in domestic output and an improvement in the trade balance
+
+A country that consistently runs a trade deficit accumulates debt vis-a-vis the rest of the world, and therefore has to steadily pay
+higher and higher interest payments to the rest of the world. Thus, it is no wonder that countries prefer increases in foreign demand
+(which improve the trade balance) to increases in domestic demand (which worsen the trade balance).
+
+* 18-4 Depreciation, the Trade Balance, and Output
+
+Suppose the US government takes policy measures that lead to a depreciations of the dollar - a decrease in the nominal exchange rate.
+
+Let's ask how this real depreciation will affect the US trade balance and US output.
+
+** Depreciation and the Trade Balance: the Marshall-Lerner Condition
+
+Net exports:
+
+$NX = X(Y^*, \epsilon) - IM(Y, \epsilon) / \epsilon$
+
+As the real exchange rate $\epsilon$ enters the right side of the equation in 3 places, this makes it clear that the real depreciation affects the trade balance through 3 separate channels:
+
+- Exports increase
+- Imports decrease
+- The relative price of foreign goods in terms of domestic goods, $1 / \epsilon$, increases.
+
+For the trade balance to improve following a depreciation, exports must increase enough and imports must decrease enough to compensate for the increase in the price of imports. The condition under which a real depreciation leads to an increase in net exports is known as the *Marshall-Lerner condition*. It turns out that this condition is satisfied in reality, so we can assume that a real depreciation leads to an increase in net exports.
+
+** The Effects of a Real Depreciation
+
+We have looked so far at the direct effects of a depreciation on the trade balance. The affects do not end there. The change in net exports changes domestic output, which further affects net exports.
+
+The depreciation leads to a shift in demand, both foreign and domestic, toward domestic goods. This shift in demand leads, in turn, to both an increase in domestic output and an improvement in the trade balance.
+
+** Combining Exchange Rate and Fiscal Policies
+
+Suppose output is at its natural level, but the economy is running a large trade deficit. The government would like to reduce the trade deficit while leaving output unchanged so as to avoid overheating. What should it do?
+
+While depreciation and fiscal contraction might change output, the government can use the right combination of both in order to achieve their goal.
+
+To reduce the trade deficit without changing output, the government must both achieve a depreciation and decrease government spending
+
+* 18-5 Saving, Investment, and the Current Account Balance
+
+$CA = S + (T - G) - I$
+
+Current account balance = saving (private + public) minus investment. A current account surplus implies that the country is saving more than it invests. Similarly, a deficit implies that it is saving less than it invests.
+
+Note some of the things the equation says:
+
+- An increase in investment must be reflected in either an increase in private or public saving or a deterioration of the current account balance
+- A deterioration in the government budget balance must be reflected in either an increase in private saving or a decrease in investment, or in a deterioration of the current account balance.
+- A country with a high saving rate (private - public) must have either a high investment rate or a large current account surplus

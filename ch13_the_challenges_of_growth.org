@@ -1,0 +1,26 @@
+#+TITLE: Chapter 13: The Challenges of Growth
+
+13-1 discusses the future of technological progress
+13-2 discusses whether technological progress will lead to mass unemployment
+13-3 discusses the relation between growth and inequality
+13-4 discusses climate change
+
+Basic message: Growth is a complex process, and policies to make it fair and sustainable are of the essence.
+
+* 13-1 The Future of Technological Progress
+
+* 13-2 Robots and Unemployment
+
+* 13-3 Growth, Churn, and Inequality
+
+** The Causes of Increased Wage Inequality
+
+One line of argument has focused on the role of international trade. US firms that employ higher proportions of low-skill workers are
+increasingly driven out of markets by imports from similar firms in low-wage countries.
+
+The other line of argument has focused on *skill-biased technological progress*. New machines and new methods of production require more
+and more high-skill, high education workers.
+
+At this point, most economists believe it is the latter point which is the dominant factor in explaining the increase in wage inequality
+
+** 13-4 Climate Change and Global Warming

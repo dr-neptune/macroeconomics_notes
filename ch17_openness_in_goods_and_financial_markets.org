@@ -1,0 +1,103 @@
+#+TITLE: Openness in Goods and Financial Markets
+
+Openness has 3 distinct dimensions:
+
+*Openness in goods markets* - the ability of consumers and firms to choose between domestic goods and foreign goods
+*Openness in financial markets* - the ability of financial investors to choose between domestic assets and foreign assets
+*Openness in factor markets* - the ability of firms to choose where to locate production and of workers to choose where to work
+
+17-1 looks at openness in goods markets, determinants of the choice between domestic and foreign goods, and the role of the real exchange rate
+17-2 looks at openness in financial markets, determinants of the choice between domestic and foreign assets, and the role of interest rates and exchange rates
+17-3 gives a map to the next 3 chapters
+
+Basic Message: When looking at an open economy, we have to think about both the choice of domestic vs foreign goods and that of domestic vs. foreign assets.
+
+* Openness in Goods Markets
+
+** Exports and Imports
+
+The US trades roughly 3x as much (relatived to its GDP) with the rest of the world than it did 50 years ago. Exports and imports, which were equal to 5% of GDP in the early 1960s, are now equal to about 14% of GDP (12.3% for exports, 15.4% for imports). Since the late 1970s imports have consistently exceeded exports.
+
+A better index of openness than export or import ratios is the proportion of aggregate output composed of *tradable goods* -- goods that compete with foreign goods in either domestic markets or foreign markets. Estimates are that tradable goods (e.g. cars, computers, pharmaceuticals, etc) represent about 60% of aggregate output in the US today.
+
+** The Choice between Domestic Goods and Foreign Goods
+
+How does openness in goods markets force us to rethink the way we look at equilibrium in the /goods market/?
+
+In an open economy, the consumer must consider save or buy, but also buy domestic or buy foreign.
+Central to the decision to buy domestic or foreign is the price of domestic goods to foreign goods. We call this relative price the *real exchange rate*.
+Often you only hear about nominal exchange rates
+
+** Nominal Exchange Rates
+
+Nominal exchange rates between two currencies can be quoted in one of two ways:
+
+- as the price of the domestic currency in terms of the foreign currency
+- as the price of the foreign currency in terms of the domestic currency
+
+Here we will choose the first definition and denote it as E: the nominal exchange rate.
+
+If a US tourist visited the UK, the question is not usually how many pounds they can get per dollar but how much goods will cost in the UK relative to the US.
+
+** From Nominal to Real Exchange Rates
+
+$\epsilon = \frac{EP}{P^*}$
+
+or:
+
+Price of US goods in terms of UK goods ($\epsilon$) = Price of US goods in pounds ($EP$)  / price of UK goods in pounds $P^*$
+
+Although the level of the real exchange rate is uninformative, the rate of change of the real exchange rate is informative.
+If the real exchange rate between the US and UK increases by 10%, this tells us that US goods are now 10% more expensive relative to UK goods than they were before.
+
+Like nominal exchange rates, real exchange rates move over time.
+- an increase in the real exchange rate is called a *real appreciation*
+- a decrease in the real exchange rate is called a *real depreciation*
+
+** From Bilateral to Multilateral Exchange Rates
+
+How do we go from *bilateral exchange rates*, like the real exchange rate between the US and UK, to *multilateral exchange rates* that reflect the composition of trade?
+
+We want the weight of a given country to incorporate not only how much the country trades with the US but also how much it competes with the US in other countries. The variable constructed in this way is called the *multilateral real US exchange rate*.
+
+* 17-2 Openness in Financial Markets
+
+** The Balance of Payments
+
+A country's transactions with the rest of the world, including both trade flows and financial flows, are summarized by a set of accounts called the *balance of payments*.
+
+We can now look at the difference between gross domestic product (*GDP*) and gross national product (*GNP*).
+
+GDP measures value added domestically. GNP measures the value added by domestic factors of production. To go from GDP to GNP, one must start from GDP, add income received from the rest of the world, and subtract income paid to the rest of the world.
+
+GNP = GDP + NI
+
+where NI is net income payments to the rest of the world.
+
+** The Choice between Domestic and Foreign Assets
+
+Let's assume that you and other financial investors care only about the expected rate of return, ignoring differences in risk, and therefore want to hold only the asset with the highest expected rate of return. Arbitrage implies that the following relation must hold:
+
+$(1 + i_t) = (1 + i_t^*)(\frac{E_t}{E_{t + 1}^e})$
+where:
+
+- $i_t$ is the country A interest rate at time t
+- $i_t^*$ is the country B interest rate at time t
+- $E_t$ is the exchange rate at time time
+- $E_{t+1}^e$ is the expected exchange rate at time t + 1
+
+This equation is called the *uncovered interest parity relation*, or simply the *interest parity condition*.
+
+This assumption that financial investors will only hold bonds with the highest expected rate of return is obviously too strong, for 2 reasons:
+- it ignores transaction costs
+- it ignores risk
+
+** Interest Rates and Exchange Rates
+
+If we assume that interest rates or the expected rate of depreciation are not too large -- say below 20% per year -- a good approximation to this equation is given by:
+
+$i_t \approx i_t^* - \frac{E_{t + 1}^e - E_t}{E_t}$
+
+This is the form of the *interest parity condition* that should be remembered. Arbitrage by investors implies that the domestic interest rate must be equal to the foreign interest rate minus the expected appreciation rate of the domestic currency.
+
+This equation suggests that unless countries are willing to tolerate large movements in their exchange rate, domestic and foreign interest rates are likely to move largely together.

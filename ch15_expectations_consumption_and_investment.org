@@ -1,0 +1,134 @@
+#+TITLE: Chapter 15: Expectations, Consumption, and Investment
+
+We now turn to the role expectations play in determining the two main components of spending -- consumption and investment
+
+15-1 looks at consumption and shows that consumption decisions depend not only on a person's current income, but also on his or her expected future income and on financial wealth
+15-2 turns to investment and shows that investment decisions depend on current and expected profits and on current and expected real interest rates
+15-3 looks at movements in consumption and investment over time and shows how to interpret those movements in light of what is learned in this chapter
+
+Basic message: Both consumption and investment decisions depend very much on expectations about the future.
+
+* 15-1 Consumption
+
+The modern theory of consumption was developed independently in the 50s by Milton Friedman, who called it the *permanent income theory of consumption*, and by Franco Modigliani, who called it the *life-cycle theory of consumption*.
+
+Friedman's "permanent income" emphasized that consumers look beyond current income
+Modigliani's "life-cycle" emphasized that consumers' natural planning horizon is their entire lifetime
+
+** The Very Foresighted Consumer
+
+(131000)(0.75)[1 + (1.03) + (1.03)^2 + ... + (1.03)^30]
+
+1(1 - (1.03)^30)/(1 - 1.03)
+
+(47.57541570632203)(0.75)(131000)
+
+expected value of lifetime after-tax labor income (to 60) is 4,674,284.59
+
+If we expect to make it to 80, then that leaves
+((47.57541570632203)* (0.75)* (131000)) / 50 = $93485.69 per year
+
+** Putting Things Together: Current Income, Expectations, and Consumption
+
+Expectations affect consumption in 2 ways:
+- directly through human wealth. Consumers form their own expectations about future labor income, real interest rates, and taxes
+- indirectly through non-human wealth: stocks, bonds, and housing
+
+The dependense of consumption on expectations has in turn two main implications for the relation between consumption and income:
+- consumption is likely to respond less than one-for-one to fluctuations in current income
+- consumption may move even if current income does not change
+
+* 15-2 Investment
+
+The basic theory of investment is straightforward. A firm deciding whether to invest must make a simple comparison.
+It must first compute the present value of profits it can expect from having the additional capital. It must then compare
+the present value of profits to the cost of buying the capital. If the present value exceeds the cost, the firm should
+buy the capital. If the present value is less than the cost, then the firm should not buy the capital.
+
+** Depreciation
+
+To compute the present value of expected profits, the firm must first estimate how long the capital will last.
+The depreciation rate $\delta$ measures how much usefulness the machine loses from one year to the next.
+
+** The Present Value of Expected Profits
+
+The firm must then compute the present value of expected profits. Assume that a machine bought in year t becomes operational in year t+1.
+Denote profit per machine in real terms by $\Pi$.
+
+The present value, in year t, of the expected profit in year t + 1, is given by
+
+$\frac{1}{1 + r_t} \Pi_{t + 1}^e$
+
+The present value of expected profits with depreciation is given by:
+
+$V(\Pi_t^e) = \frac{1}{1 + r_t} \Pi_{t + 1}^e + \frac{1}{(1 + r_t)(1 + r_{t + 1}^e)}(1 - \delta) \Pi_{t + 2}^e$ + ...
+
+The expected present value is equal to the discounted value of expected profit next year plus the year after, and the year after, and so on
+
+** The Investment Decision
+
+The decision of whether to buy capital depends on the relation between the present value of expected profits and the price of the capital.
+If the price of the capital is 1, we must compare the present value of profits to 1. If the present value is < 1, then we don't buy the capital,
+otherwise we do.
+
+If we denote profit per unit of capital for the economy as a while by $\Pi_t$ and denote the expected present value of profit per unit of capital by $V(\Pi_{t}^e)$, then we can suggest an investment function of the form
+
+$I_t = I[V(\Pi_t^e)]$
+
+Investment depends positively on the expected present value of future profits per unit of capital.
+
+** A Convenient Special Case
+
+Suppose firms expect both future profits (per unit of capital) and future interest rates to remain at the same level as today, s.t.
+
+$\Pi_{t + 1}^e = \Pi_{t + 2}^e = ... = \Pi_{t + n}^e$
+
+$r_{t + 1}^e = r_{t + 2}^e = ... = r_{t + n}^e$
+
+Economists call such expectations -- that the future will be like the present -- *static expectations*.
+
+Under these assumptions, our present value of expected profits function becomes
+
+$V(\Pi_t^e) = \frac{\Pi_t}{r_t + \delta}$
+
+i.e. the ratio of the profit rate to the sum of the real interest rate and the depreciation rate
+
+We can also write our investment function as such:
+
+$I_t = I(\frac{\Pi_t}{r_t + \delta})$
+
+This has a simple interpretation:
+
+Investment depends on the ratio of profit to the user cost. The higher the profit, the higher the levels of investment.
+The higher the user cost, the lower the level of investment.
+
+The denominator (the sum of the interest rate and the depreciation rate) is called the *user cost* or the *rental cost* of capital.
+
+This relation between profit, the real interest rate, and investment hinges on a strong assumption: that the future is expected to be the same as the present.
+
+** Current vs. Expected Profit
+
+Our current theory implies that investment should be forward looking and should depend primarily on /expected future profits/. One striking empirical fact about investment though, is how strongly it moves with fluctuations in current profit.
+
+To fit the investment behavior we observe in practice, the investment equation is better specified as
+
+$I_t = I[V(\Pi_t^e), \Pi_t]$
+
+i.e., investment depends both on the expected present value of future profits and on the current level of profit.
+
+** Profit and Sales
+
+We have argued that investment depends both on current profit and on expected profit, or, more specifically, on current and expected profit per unit of capital.
+
+What determines profit per unit of capital? Primarily:
+- the level of sales
+- the existing capital stock
+
+let $Y_t$ denote output (equivalently, sales). Let $K_t$ denote the capital stock at time $t$. Our discussion suggests the following relation:
+
+$\Pi_t = \Pi (\frac{Y_t}{K_t})$
+
+Profit per unit of capital is an increasing function of the ratio of sales to the capital stock. For a given capital stock, the higher the sales,
+the higher the profit per unit of capital. For given sales, the higher the capital stock, the lower the profit per unit of capital.
+
+Current output affects current profit, expected future output affects expected future profit, and current and expected future profits affect investment.

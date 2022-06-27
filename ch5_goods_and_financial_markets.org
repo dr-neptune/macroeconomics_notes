@@ -1,0 +1,105 @@
+#+TITLE: Chapter 5: Goods and Financial Markets: The IS-LM Model
+
+In this chapter we look at the goods and financial markets together.
+In order to do this, we develop the basic version of the IS-LM (Investment-Saving Liquidity-Money) model.
+
+*In the short run, output is determined by equilibrium in the goods and financial markets*
+
+* 5-1 The Goods Market and the IS Relation
+
+Summary of chapter 3:
+- equilibrium in the goods market is the condition that production (Y) is equal to the demand for goods (Z). This is called the IS relation
+- Demand = consumption + investment + government spending, where consumption = f(disposable income, taxes) and Z = C(Y - T) + I + G
+- Equilibrium condition: Y = C(Y - T) + I + G
+
+The main simplication for our first model was that the interest rate did not affect the demand for goods
+
+** Investment, Sales, and the Interest Rate
+
+Investment depends primarily on 2 factors:
+- the level of sales
+- the interest rate
+
+I = I(Y, i)
+
+where Y is production and i is the interest rate
+
+** Determining Output
+
+Taking into account the investment relation, the condition for equilibrium in the goods market becomes:
+
+Y = C(Y - T) + I(Y, i) + G
+
+This is out expanded IS relation
+
+production (LHS) must be equal to the demand for goods (RHS)
+
+An increase in output leads, through its effects on both consumption and investment, to an increase in the demand for goods.
+
+- Equilibrium in the goods market implies that an increase in the interest rate leads to a decrease in output. This relation is represented by the downward-sloping IS curve.
+- Changes in factors that decrease the demand for goods, given the interest rate, shift the IS curve to the left. Change in factors that increase the demand for goods, given the interest rate, shift the IS curve to the right.
+
+* 5-2 Financial Markets and the LM Relation
+
+We saw in chapter 4 that the interest rate is determined by the equality of the supply and demand for money: M = $Y L(i)
+
+where M is the nominal money stock, $Y is nominal income, and L(i) is a function of the nominal interest rate.
+
+** Real Money, Real Income, and the Interest Rate
+We can also write M = $Y L(i) in terms of real money, real income, and the interest rate
+
+If we divide both sides by the price level P, we get M / P = Y L(i)
+
+Thus, we can restate our equilibrium condition as the condition that the /real money supply/ be equal to the real money demand, which depends on real income Y and the interest rate i.
+
+** Deriving the LM Curve
+
+In deriving the LM (Liquidity-Money) curve -- the curve corresponding to the LM relation -- we have to decide how we characterize money policy: as the choice of M, the money stock, or the choice of i, the interest rate.
+
+Although in the past, central banks thought of the money supply as the monetary policy variable, they now focus on the interest rate. They choose an interest rate, i, and adjust the money supply so as to achieve it.
+
+* 5-3 Putting the IS and LM Relations Together
+
+The IS relation follows from the goods market equilibrium. The LM relation follows from financial market equilibrium. They must both hold.
+
+IS relation: Y = C(Y - T) + I(Y, i) + G
+LM relation: i = \bar{i}
+
+Together they determine output.
+
+Lets now see what the IS-LM model tells us, by looking separately at the effects of fiscal and monetary policy:
+
+** Fiscal Policy
+
+A reduction in the budget deficit, achieved either by increasing taxes, or by decreasing spending, or both, is called a *fiscal contraction* or a *fiscal consolidation*.
+
+Symmetrically, an increase in the budget deficit, achieved either through decreasing taxes, or by increasing spending, or both, is called a *fiscal expansion*.
+
+Suppose the govt decides to reduce the fiscal deficit, and to achieve this fiscal contraction through an increase in taxes. What will be the effects on output, on its composition, and on the interest rate?
+
+When you answer this or any question about the effects of changes in policy (or more generally, changes in exogenous variables), always go through the following 3 steps:
+
+1. Ask how the change affects equilibrium in the goods market and how it affects equilibrium in the financial markets. Does it shift the IS curve and/or the LM curve, and, if so, how?
+
+2. Characterize the effects of these shifts on the intersection of the IS and LM curves. What does this do to equilibrium output and the equlibrium interest rate?
+
+3. Describe the effects in words
+
+** Monetary Policy
+
+Suppose the central bank decreases the interest rate (in doing so, increasing the money supply). Such a change in monetary policy is called a *monetary expansion*.
+
+* 5-4 Using a Policy Mix
+
+The combination of monetary and fiscal policies is known as the *monetary-fiscal policy mix*, or simply the policy mix.
+
+* 5-5 How does the IS-LM model fit the facts?
+
+Instead of changes happening rapidly, there tends to be a lag from point A to A'.
+
+- Consumers are likely to take some time to adjust their consumption following a change in disposable income
+- Firms are likely to take some time to adjust investment spending following a change in their sales
+- Firms are likely to take some time to adjust investment spending following a change in their interest rate
+- Firms are likely to take some time to adjust production following a change in their sales
+
+Basically: *Time is needed for output to adjust to changes in the fiscal and monetary policy*

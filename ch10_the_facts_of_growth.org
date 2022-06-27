@@ -1,0 +1,117 @@
+#+TITLE: Chapter 10: The Facts of Growth
+
+If we look at economic activity over decades, fluctuations fade and what we see is *growth*, the steady increase in aggregate output over time.
+
+With this in mind, we shift our focus from fluctuations to growth. Put another way, we turn from the study of the determination of output in the short
+and medium run -- where fluctuations dominate -- to the determination of output in the long run -- where growth dominates.
+
+Our goal is to understand what determines growth, why some countries are growing while others are not, and why some countries are rich while
+many others are still poor.
+
+10-1 discusses a central measurement issue; namely, how to measure the standard of living
+10-2 looks at growth in the US and other rich countries over the last 50 years
+10-3 takes a broader look, across both time and space
+10-4 gives a primer on growth and introduces the framework that will be developed in the next 3 chapters
+
+Basic Message: *Over long periods of time, growth dwarfs fluctuations. The (complex) key to sustained growth is technogical progress*
+
+* 10-1 Measuring the Standard of Living
+
+The fundamental reason we care about the growth of a country is that we care about the average *standard of living* in the country.
+The variable we want to focus on, and compare either over time or across countries, is *output per person*, rather than output itself.
+
+How do we compare output per person across countries?
+
+We can not just use forex rates and compare easily because of 2 reasons:
+- exchange rates vary a lot
+- the lower a country's output per person, the lower the prices of food and basic services in that country
+
+When we focus on comparing standards of living, we get more meaningful comparisons by correcting for these two effects.
+The numbers for GDP (and GDP per capita) are constructed using a common set of prices for all countries. These numbers
+are measures of *purchasing power* across time or across countries, and are called *purchasing power parity (PPP)* numbers.
+
+Three remarks from the author:
+- What matters for people's welfare is their consumption rather than their income. One might want to use consumption per person rather than
+  output per person as a measaure of the standard of living.
+- Thinking about the production side, we may be interested in differences in producitivity rather than differences in the standard of living
+  across countries. In this case, the right measure is output per worker, or output per hour worked.
+- The reason we care about standard of living is that we care about happiness
+
+* 10-2 Growth in Rich Countries Since 1950
+
+** The Large Increase in the Standard of Living since 1950
+
+The *force of compounding* also applies to growth rates.
+
+** The Convergence of Output per Person
+
+The levels of output per person have converged over time to roughly ~2% annual growth rate output per person
+
+* 10-3 A Broader Look Across Time and Space
+
+** Looking across 2 Millenia
+
+Output per person in the currently rich economies has not always grown at a constant rate similar to the growth rates seen since 1950.
+
+From the end of the Roman Empire in 476 to roughly 1500, there was essentially no growth of output per person in Europe. Most people worked
+in agriculture in which there was little technological progress.
+
+This period of stagnation of output per person is often called the *Malthusian Era*. Thomas Malthus argued that this proportional increase in
+output would lead to a decrease in mortality, leading to an increase in population until output per person was back to its initial level.
+Europe was in a *Malthusian trap*, unable to escape its output per person.
+
+** Looking across Countries
+
+Are the poorest countries growing faster? Are they converging toward the United States, even if they are still far behind?
+
+When looking at the GDP per person in 1960 compared to annual growth rate of GDP per person, we see that:
+
+- The OECD countries (rich countries) seem to be converged roughly around the 2-4% growth rate range
+- Asian countries are in an early stage of convergence. They started lower and have maintained high growth rates
+- African countries were very poor in 1960 and most have not done well over the period since. For sub-Saharan Africa, growth of output pp has been ~3% since 2000
+
+* 10-4 Thinking About Growth: A Primer
+
+This section provides an introduction to a framework developed by Robert Solow in the late 1950s to think about growth.
+
+** The Aggregate Production Function
+
+The starting point for any theory of growth must be an *aggregate production function*, which is a specification of the relation between aggregate output
+and inputs in production.
+
+We will assume that the relation between aggregate output and the two inputs (capital and labor) is given by:
+
+Y = F(K, N)
+
+where Y is aggregate output, K is capital, the sum of all the machines, plants, and office buildings in the economy, N is labor, the number of workers in the economy.
+F is our aggregate production function.
+
+The next step is to think about where the aggregate production function F comes from. What determines how much output can be produced for given quantities of capital and labor? The answer is the *state of technology*. (or maybe efficiency gains given by technological progress)
+
+** Returns to Scale and Returns to Factors
+
+Now that we have introduced the aggregate production function, what restrictions can we reasonably impose on this function?
+
+We can assume that if we double the original economy, we will have roughly double the output. This property is called *constant returns to scale*. (sounds like misplaced trust in linear models to me).
+
+We refer to the property that increases in capital/labor lead to smaller and smaller increases in output as *decreasing returns to capital/labor*.
+
+** Output per Worker and Capital per Worker
+
+The production function we have written, together with the assumption of constant returns to scale, implies that there is a simple relation
+between output per worker and capital per worker.
+
+Y/N = F(K/N, N/N) = F(K/N, 1)
+
+Y/N is output per worker, and K/N is capital per worker. So our equation tells us that the amount of output per worker depends on the amount of capital per worker.
+
+** The Sources of Growth
+
+Where does growth come from? Why does output per worker go up over time?
+
+- increases in output per worker (Y/N) can come from increases in capital per worker (K/N)
+- they can also come from improvements in the state of technology that shift the production function F and lead to more output per worker given capital per worker
+
+Hence, we can think of growth as coming from *capital accumulation* and from *technological progress*
+
+These 2 factors play different roles in the growth process.

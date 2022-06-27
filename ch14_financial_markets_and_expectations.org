@@ -1,0 +1,175 @@
+#+TITLE: Chapter 14: Financial Markets and Expectations
+
+Our focus throughout this chapter will be on the role expectations play in the determination of asset prices, from bonds to stocks to houses.
+
+Section 14-1 introduces the concept of expected present discounted value, which plays a central role in the determination of asset prices and
+in consumption and investment decisions
+
+Section 14-2 looks at the determination of bond prices and bond yields. It shows how bond prices and yields depend on current and expected
+future short-term interest rates. It then shows how we can use the yield curve to learn about the expected course of future short-term
+interest rates.
+
+Section 14-3 looks at the determination of stock prices. It shows how stock prices depend on current and expected future profits, as well as
+on current and expected future interest rates. It then discusses how movements in economic activity affect stock prices.
+
+Section 14-4 looks more closely at the relevance of fads and bubbles -- episodes in which asset prices (stock or house prices, in particular)
+appear to move for reasons unrelated to either current and expected future payments or interest rates
+
+Basic Message: Expectations determine bond and stock prices
+
+* 14-1 Expected Present Discounted Values
+
+Consider a manager who is deciding whether or not to buy a new machine. There is a cost today for buying and installing the machine, but it allows for higher production, sales, and profits in the future. Does the value of these expected profits exceed the cost of buying and installing the machine?
+
+The *expected present discounted value* of a sequence of future payments is the value today of this expected sequence of payments.
+The manager computes the expected present discounted value of the sequence and the initial cost. If the value exceeds the cost, they buy the machine.
+
+The practical problem is that expected present discounted values are not directly observable. They must be constructed from information on the sequence
+of expected pyaments and expected interest rates.
+
+** Computing Expected Present Discounted Values
+
+We say that 1 / (1 + i_t) is the present discounted value of one dollar next year, where i_t is the one-year nominal interest rate.
+We say 1 / (1 + i_t) is the *discount factor*, and the rate at which you discount (the nominal interest rate, i_t, is sometimes called the *discount rate*)
+
+** A General Formula
+
+Consider a sequence of payments in dollars, starting today and continuing into the future. Assume for the moment that both future payments and future interest
+rates are known with certainty. Denote today's payment by $z_t, the payment next year by $z_{t + 1}, etc. The present discounted value of the sequence of payments
+-- that is, the value in today's dollars of the sequence of payments -- which we shall call $V_t, is given by:
+
+$V_t = $z_t + (1/(1 + i_t)) $z_{t + 1} + 1 / ((1 + i_t)(1 + i_{t + 1})) $z_{t + 2} + ...
+
+Actual decisions must be based on expectations of future payments rather than on actual values for those payments. The best that the manager can do
+is get the most accurate forecasts they can, and then compute the expected present discounted value of profits based on those forecasts.
+
+"Expected present discounted value" is a heavy expression to carry; instead, we will often just use *present discounted value*, or even just *present value*.
+To denote the present value of an expected sequence for $z, we shall write V($z_t), or just V($z).
+
+** Constant Interest Rates
+
+We could make an assumption that interest rates are expected to be constant over time, giving us:
+
+$V_t = $z_t + (1/(1 + i_t)) $z_{t + 1} + 1 / (1 + i_t)^2 $z_{t + 2} + ...
+
+In this case, the present value is a weighted sum of current and expected future payments, with weights that decline geometrically through time.
+
+** Nominal vs. Real Interest Rates and Present Values
+
+We can compute the present value of a sequence of payments in two ways:
+- compute it at the present value of the sequence of payments expressed in dollars, discounted using nominal interest rates, and then divided by the price level today
+- compute it as the present value of sequence of payments expressed in real terms, discounted using real interest rates.
+
+* 14-2 Bond Prices and Bond Yields
+
+Bonds differ in 2 basic dimensions:
+- Maturity: The *maturity* of a bond is the length of time over which the bond promises to make payments to the holder of the bond.
+            A bond that promises to make 1 payment of $1000 in six months has a maturity of six months;
+	    A bond that promises to pay $100 / year for the next 20 years and a final payment of $1000 at the end of those has a maturity of 20 years
+
+- Risk: This may be *default risk* (risk that the issuer of the bond will not pay back the full amount promised), or *price risk* (uncertainty about the price at which you can sell the bond in the future if you want to sell it before maturity).
+
+Both maturity and risk matter in the determination of interest rates.
+
+Bonds of different maturities each have a price and an associated interest rate called the *yield to maturity*, or simply the *yield*.
+Yields on bonds with a short maturity, typically a year or less, are called *short-term interest rates*. Yields on bonds with a longer
+maturity are called *long-term interest rates*.
+The relation between maturity and yield is called the *yield curve*, or the *term structure of interest rates*.
+
+Bonds are rated for their default risk by rating agencies. The difference between the interest rate paid on a given bond and the interest rate
+paid on the bond with the highest (best) rating is called the *risk premium* associated with the given bond. Bonds with high default risk are
+sometimes called *junk bonds*.
+
+Bonds that promise a single payment at maturity, rather than annual payments along the way, are called *discount bonds*. The single payment is called the *face value* of that bond.
+
+Bonds that promise multiple payments before maturity and one payment at maturity are called *coupon bonds*. The payments before maturity are called *coupon payments*.
+The ratio of coupon payments to the face value is called the *coupon rate*. The *current yield* is the ratio of the coupon payment to the price of the bond.
+
+*T-Bills* are bonds with a maturity of up to a year. They are discount bonds, making only one payment at maturity.
+*Treasury Notes* have a maturity of 1-10 years
+*Treasury Bonds* have a maturity of 10+ years.
+
+Bonds with longer maturities are riskier, and thus typically carry a risk premium, called the *term premium*.
+
+*Indexed bonds* promise payments adjusted for inflation rather than fixed nominal payments. A one year indexed bond
+promises to pay 100(1 + \pi) dollars, whatever \pi, the rate of inflation that will take place over the coming year, turns out to be.
+Another name is *Treasury Inflation Protected Securities*.
+
+** Bond Prices as Present Values
+
+If a one-year bond promises to pay $100 next year, it must be equal to the present value of a payment of $100 next year.
+
+$P_{1t} = \frac{100}{1 + i_t}$
+
+where i_t is the one-year interest rate in year t.
+
+Given a two year bond that promises to pay $100 in two years, we should have:
+
+$P_{2t} = \frac{100}{(1 + i_{1t})(1 + i_{1t + 1}^e)}$
+
+where $i_{1t}$ denotes the one-year interest rate this year and $i_{1t + 1}^e$ denotes the one-year rate expected by financial markets for the next year.
+
+** Arbitrage and Bond Prices
+
+Arbitrage between one and two year bonds implies that the price of two-year bonds is the present value of the payment in two years, namely $100, discounted using current and next year's expected one-year interest rates.
+
+** From Bond Prices to Bond Yields
+
+Bond yields contain the same information about future expected interest rates as bond prices.
+The *yield to maturity* on an n-year bond, or equivalently, the *n-year interest rate*, is defined as the constant annual interest rate
+that makes the bond price today equal to the present value of future payments on the bond.
+
+For example, if we consider a two year bond with yield $i_{2t}$, the yield is the constant annual interest rate that would make the present
+value of $100 in 2 years equal to the price of the bond today.
+
+The two year interest rate is (approximately) the average of the current one-year interest rate and next year's expected one-year interest rate
+
+$i_{2t} \approx \frac{1}{2}(i_{1t} + i_{1t + 1}^e)$
+
+We have focused on the relation between the prices and yields of one and two-year bonds, but our results generalize to bonds of any maturity.
+To take an example, the yield on a bond with a maturity of ten years is (approximately) equal to the average of the current one-year interest
+rate and the one year interest rates expected for the next 9 years.
+
+The general principle: Long-term interest rates reflect current and future expected short-term interest rates.
+
+** Reintroducing Risk
+
+The expected return on the 2-year bond must exceed the return on the 1-year bond by some risk premium $x$
+
+$P_{2t} = \frac{P_{1t + 1}^e}{1 + i_{1t} + x}$
+
+To go from prices to yields, we get
+
+$i_{2t} \approx \frac{1}{2}(i_{1t} + i_{1t + 1}^e + x)$
+
+$i_{nt} \approx \frac{1}{n}(i_{1t} + i_{1t + 1}^e + ... + i_{1t + n - 1}^e + x)$
+
+* 14-3 The Stock Market and Movements in Stock Prices
+
+Firms finance themselves in 4 ways:
+
+- internal finance
+  use some of their own profits
+- external finance
+  through bank loans
+- debt finance
+  bonds and loans
+- equity finance
+  issuing stocks/shares
+
+Instead of paying predetermined amounts as bonds do, stocks pay *dividends* in an amount decided by the firm.
+
+** Stock Prices as Present Values
+
+The stock price must be equal to the present value of future expected dividends.
+
+In the case of stocks, the risk premium is called the *equity premium*. Equilibrium then requires that the expected rate of return from
+holding stocks for one year be the same as the rate of return on one-year bonds plus the equity premium:
+
+$\frac{D_{t + 1}^e + Q_{t + 1}^e}{Q_t} = 1 + i_{1t} + x$
+
+where:
+- $D_{t + 1}^e + Q_{t + 1}^e$ is the sum of the expected dividend and the stock price next year
+- $Q_t$ is the price of a stock
+- $x$ is the equity premium
+- $i_{1t}$ is the interest

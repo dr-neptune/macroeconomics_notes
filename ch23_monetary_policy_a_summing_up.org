@@ -1,0 +1,142 @@
+#+TITLE: Monetary Policy: A Summing Up
+
+This chapter reviews what we have learned about monetary policy so far, then describes the logic of inflation targeting and the use of an interest rate rule, and finally discusses where macroeconomists stand on the issues raised by the crisis.
+
+*23-1* takes stock of what we have learned so far
+*23-2* describes the inflation-targeting framework
+*23-3* reviews the costs and benefits of inflation and draws implications for the choice of a target inflation rate
+*23-4* describes the monetary policy measures taken by central banks when they hit the zero lower bound and since then
+*23-5* discusses the potential role of central banks in ensuring financial stability
+
+*Basic Message:* Before the crisis, monetary policy had converged to a framework called inflation targeting. The crisis has forced a reassessment of both the mandate and of the tools, a reassessment that is still going on.
+
+* 23-2 From Money Targeting to Inflation Targeting
+
+One can think of the goals of monetary policy as twofold:
+1. maintain low and stable inflation
+2. stabilize output around potential - to avoid or at least limit recessions or booms
+
+** Money Targeting
+
+*M1* is the measure of money stock. Until the 1980s, the strategy was to choose a target rate of money growth and to allow for deviations from that target rate as a function of activity. Unfortunately, the strategy didn't work very well.
+
+The relation between money growth and inflation turned out to be far from tight, even in the medium run.
+Even the relation between the money supply and the interest rate in the short run also turned out to be unreliable.
+
+This made money growth an unreliable instrument to affect demand and output.
+
+Both problems (poor relation between money growth and inflation in the short and medium run) had the same origin: /shifts in the demand for money/.
+
+** Inflation Targeting
+
+Central banks committed to achieving a target inflation rate, and decided to use the interest rate as the instrument to achieve it.
+Most central banks adopted what is called *flexible inflation targeting*. When inflation is away from target, rather than trying to return it to target right away, they adjust the interest rate to return to the target inflation rate over time.
+
+** The Interest Rate Rule
+
+How do you set the policy rate to achieve the target rate of inflation? When inflation is higher than the target, increase the policy rate to decrease demand and the pressure on prices. When it is below the target rate of inflation, decrease the policy rate.
+
+John Taylor suggested the following rule for the policy rate, known as the *Taylor Rule*:
+
+$i_t = \bar{i} + a(\pi_t - \bar{\pi}) - b(u_t - u_n)$
+
+where:
+- $i_t$ is the policy rate, the nominal rate controlled by the central bank
+- $\bar{i_t}$ is the target nominal interest rate, $\bar{i} = r_n + \bar{\pi}$, the nominal rate associated with the neutral rate of interest and the target rate of inflation
+- $u_t$ is the unemployment rate, $u_n$ is the natural unemployment rate
+- $\pi_t$ is the rate of inflation, $\bar{\pi}$ is the target rate of inflation
+- $a$ and $b$ are positive coefficients chosen by the central bank
+
+* 23-3 The Optimal Inflation Rate
+
+** The Costs of Inflation
+
+Within the range of $[0, 4]$ % inflation per year, economists identify four main costs of inflation:
+
+1. Shoe-leather costs
+2. tax distortions
+3. money illusion
+4. inflation variability
+
+*** Shoe-Leather Costs
+
+In the medium run, a higher inflation rate leads to higher nominal interest rate, and so a higher opportunity cost of holding money.
+As a result, people decrease their money balances by making more trips to the bank, thus the expression *shoe-leather costs*.
+
+During *hyperinflations*, this is a serious worry. The importance during times of moderate inflation is more limited.
+
+*** Tax Distortions
+
+The second cost of inflation comes from the interaction between the tax system and inflation.
+Because tax codes around the world rarely define the tax base in real terms, the inflation rate matters and leads to distortions
+
+*** Money Illusion
+
+The third cost comes from *money illusion* - the notion that people appear to make systematic mistakes in assessing nominal versus real changes in incomes and interest rates. A number of computations appear to be simple when prices are stable and more complicated when there is inflation. As an example, when comparing salaries between years, they must keep track of the history of inflation.
+
+*** Inflation Variability
+
+Higher inflation is typically associated with *more variable inflation*.
+More variable inflation means that financial assets such as bonds, which promise fixed nominal payments in the future, become riskier.
+
+** The Benefits of Inflation
+
+There are 3 main benefits of inflation:
+1. Seignorage
+2. the use of the interaction between money illusion and inflation in facilitating real wage adjustments
+3. the option of negative real interest rates for macroeconomic policy
+
+*** Seignorage
+
+Money creation - the ultimate source of inflation - is one of the ways the government can finance its spending. Put another way, money creation is an alternative to borrowing from the public or raising taxes.
+
+*** Money Illusion Revisited
+
+The constant process of change that characterizes modern economies means some workers must sometimes take a real pay cut. The presence of inflation allows for these downward real wage adjustments more easily than if inflation is equal to 0.
+
+*** The Option of Negative Real Interest Rates
+
+Higher inflation decreases the probability of hitting the zero lower bound.
+An economy with a higher average inflation rate has more room to use monetary policy to fight a recession.
+
+* 23-4 Unconventional Monetary Policy
+
+When the policy rate is equal to zero, other interest rates remain positive reflecting various risk premiums.
+We can think of the premium on an asset as determined by supply and demand for an asset. If the demand for an asset
+decreases, whether buyers become more risk-averse or because some investors just decide not to hold an asset, the
+premium will increase. Similarly, if demand increases, the premium decreases.
+
+This is the logic that led central banks to buy assets (other than short-term bonds) with the intention of decreasing
+the premium on them and thus decreasing the corresponding borrowing rates with the aim of stimulating economic activity.
+They did this by financing their purchanses through money creation, leading to a large increase in the money supply.
+Although the increase in money supply had no effect on the policy rate, the purchase of these other assets decreased
+their premium, leading to lower borrowing rates and higher spending. These purchase programs are known as *Quantitative easing*
+or *credit easing* policies.
+
+** Monetary Policy since the End of the Liquidity Trap
+
+The Fed now operates a *corridor system*. It sets 2 rates:
+1. The rate on reserves: The rate at which banks can in effect lend to the Fed
+2. The discount rate: The rate at which banks can borrow from the Fed
+
+* 23-5 Monetary Policy and Financial Stability
+
+** Liquidity Provision and Lender of Last Resort
+
+Central banks have long known about bank runs. In most countries, 2 measures have traditionally been taken to limit such runs:
+
+1. Deposit insurance, which gives investors the confidence that they will get their funds back even if the bank is insolvent
+2. The provision of liquidity by the central bank to the bank against some collateral (namely assets of the bank).
+   This function of the central bank is known as *lender of last resort*
+
+The crisis showed that banks were not the only financial institutions that could be subject to runs. Any institution whose assets
+are less liquid than its liabilities is exposed to similar risks of a run.
+
+** Macroprudential Tools
+
+To deal with bubbles, credit booms, or dangerous behavior in the financial system, the interest rate is not the right policy instrument.
+It is too blunt a tool, affecting the whole economy rather than resolving the problem at hand. The right instruments are
+*macroprudential tools*, rules that are aimed directly at borrowers, or lenders, or banks and other financial institutions, as the
+case may require.
+
+There are lots of these for different cases

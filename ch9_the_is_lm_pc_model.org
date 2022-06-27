@@ -1,0 +1,127 @@
+#+TITLE: Chapter 9: From the Short to the Medium Run: The IS-LM-PC Model
+
+In this chapter, we put together (output, demand), (unemployment, inflation).
+Now we put both together to characterize the behavior of output, unemployment, and inflation in both the short and medium run.
+
+9-1 develops the IS-LM-PC model
+9-2 shows how the economy adjusts from its short-run equilibrium to its medium-run equilibrium
+9-3 discusses complications and how things can go wrong
+9-4 looks at the dynamic effects of fiscal consolidation
+9-5 looks at the dynamic effects of an increase in the price of oil
+9-6 concludes the chapter
+
+Basic Message: In the short run, demand determines output. In the medium run, with the help of policy, output returns to potential
+
+* The IS-LM-PC Model
+
+From equilibrium in the goods market, we derived the following equation for the behavior of output in the short-run:
+
+Y = C(Y - T) + I(Y, r + x) + G
+
+Y = output
+C = Consumption function, of output and taxes
+I = Investment function, of output, and real rate (r) and risk premium (x)
+G = Government spending
+
+In the short-run output is determined by demand, which is itself the sum of consumption, investment, and government spending
+
+Relation between inflation and output:
+
+pi - pibar = (alpha / L)(Y - Y_n)
+
+where:
+pi is inflation
+pibar is expected inflation
+L denotes the labor force
+Y_n is the potential output
+alpha is the coefficient of the effect of unemployment on inflation
+
+* From the Short to the Medium Run
+
+In order to prevent the economy from "overheating" when output is higher than expected output (leading to inflation), the central bank reacts and increases the real rate so as to reduce inflation (and in doing so, reduce output).
+
+At the re-equilibrated point, output returns to its natural level Y = Y_n, and unemployment returns to its natural unemployment rate u = u_n. Then, with unemployment
+at its natural rate, the inflation rate returns to the target rate pi = pibar.
+
+In order to do this, the interest rate must approach r_n, the *natural rate of interest* (to reflect the fact that it is the rate of interest associated with the natural rate of unemployment, or the natural level of output). It is also sometimes called the *neutral rate of interest* or the *Wicksellian rate of interest*.
+
+In the medium run, the real variables, be it output, unemployment, or the real rate of interest, are independent of monetary policy.
+What monetary policy determines is the rate of inflation, and the nominal interest rate. In the medium run, a higher rate of money growth leads only to
+higher inflation and higher nominal interest rates. The fact that monetary policy does not affect real variables in the medium run is referred to as the *neutrality of money*.
+
+* 9-3 Complications and How Things Can Go Wrong
+
+The change in inflation provides a signal about the output gap (the distance between actual and potential output), but the signal is noisy
+The central bank may thus want to adjust the real rate slowly and see what happens.
+There are lag effects that need to be considered. It may be difficult or counterproductive to decrease demand and output too quickly.
+Going too slowly involves another risk, namely that, if inflation remains above target for too long, inflation expectations will de-anchor,
+leading to increasing inflation and requiring a costlier adjustment later on by the central bank.
+
+** The Zero Lower Bound and Deflation Spirals
+
+Consider the case where the economy is in a recession, and the output gap is very large and so inflation is lower than target inflation.
+This may imply that inflation is negative, that the economy is experiencing deflation.
+
+If the central bank is limited in terms of how much they can adjust the real rate due to the zero lower bound, then there may be problems.
+Suppose that the central bank cannot decrease the real rate below its current rate r (whereas the natural rate is r_n).
+Then the economy is stuck with a large output gap and deflation. This worsens as people see that inflation is below target and the economy
+is experiencing deflation. They start changing the way they form expectations and start anticipating deflation. Expectations become de-anchored
+and the negative output gap now leads not just to deflation, but to larger and larger deflation. As deflation becomes larger, the real interest rate,
+which is equivalent to the deflation rate, increases. The larger the deflation, the higher the real interest rate, the lower the output, and so on.
+This situation is known as a *deflation spiral*, or a *deflation trap*.
+
+* 9-4 Fiscal Consolidation Revisited
+
+In this section, we go back to the fiscal consolidation we discussed in chapter 5 and  look at not only its short-run effects but its medium-run effects as well
+
+Suppose everything is perfect (output is at expected output, inflation is at expected inflation, real rate is at expected rate).
+Then assume the government, which is running a deficit, decides to reduce it by increasing taxes.
+This shifts the IS curve to the left, then output decreases to re-equilibriate causing inflation to lower. In other words,
+if output was equal to potential output to start with, the fiscal consolidation leads to a recession. This is the short-run equilibrium.
+
+In the medium run, the central bank can re-equilibrate the economy by changing the real interest rate to a new point r'n. This balances out,
+mitigating the effects of the fiscal consolidation. As output is the same as before, but the interest rate is lower, investment is higher than before.
+The decrease in consumption is offset by an increase in investment, so demand, and by implication output, is unchanged.
+
+Although consolidation may decrease investment in the short-run, it increases investment in the medium run.
+
+* 9-5 The Effects of an Increase in the Price of Oil
+
+What would we expect the short and medium run effects of such increases to be?
+In answering the question, we are confronted with the price of oil appearing nowhere in our model so far.
+To fix this, we can capture the increase in the price of oil by an increase in m - the markup of the price over the nominal wage.
+Given wages, an increase in the price of oil increases the cost of production, forcing firms to increase prices to maintain the same profit rate.
+
+Having made this assumption, we can then track the dynamic effects of an increase in the markup on output and inflation
+
+** Effects on the Natural Rate of Unemployment
+
+Because firms have to pay more for oil, the wage they can pay is lower. Getting workers to accept the lower real wage requires an increase in unemployment.
+The increase in the natural rate of unemployment leads in turn to a decrease in the natural level of employment. If we assume that the relation between
+employment and output is unchanged (each unit of output still requires one worker in addition to the energy input), then the decrease in the natural level
+of employment leads to an identical decrease in potential output.
+
+An increase in the price of oil leads to a decrease in potential output
+
+when lower output is associated with inflation higher than the target, economists call that scenario *stagflation*
+
+* 9-6 Conclusions
+
+** The Short Run vs. the Medium Run
+
+Shocks or changes in policy typically have different effects in the short run and in the medium run.
+One implication is that where you stand (short-run focused or medium-run focused) depends on, among other things,
+how fast you think the economy adjusts to shocks. If you believe it takes a long time for output to return to potential
+you will naturally focus more on the short run and be willing to use policies that increase output in the short-run, even if
+the medium term effects are nil or negative. If you believe instead that output returns to potential quickly, you will put
+more emphasis on the medium-run implications, and will, by implication, be more reluctant to use short-run policies
+
+** Shocks vs. Propagation Mechanisms
+
+This chapter gives a general way of thinking about *output fluctuations* (sometimes called *business cycles*) - movements in output around
+its trend. We can think of the economy as being constantly hit by *shocks*. Each shock has dynamic effects on output and its components.
+These dynamic effects are called the *propagation mechanism* of the shock. What we call *economic fluctuations* are the result of these shocks
+and their dynamic effects on output.
+
+Typically, the economy returns over time to its medium-run equilibrium. A major issue is whether we can expect the economy to return to that
+equilibrium on its own, or whether it requires an active policy response.

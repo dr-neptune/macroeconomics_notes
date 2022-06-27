@@ -1,0 +1,109 @@
+#+TITLE: Chapter 3: The Goods Market
+
+Basic message for this chapter: In the short run, demand determines output
+
+* 3-1 The Composition of GDP
+
+The decomposition of GDP typically used by macroeconomists is the following:
+
+- *consumption* : goods and services purchased by consumers
+
+- *investment* : the sum of *nonresidential investment*, the purchase by firms of capital and *residential investment*, the purchase by people of houses / apartments
+
+- *government spending* : the purchase of goods and services by the federal, state, and local governments
+The above 3 give the purchase of goods and services by US consumers, firms, and government
+To determine the purchases of us goods and services, we need 2 more steps
+
+- *net exports* : *exports*, or the purchases of foreign goods and services by foreigners, and *imports*, the purchase of foreign goods and services by the US firms, consumers, and government. The difference between exports and imports is called *net exports* (exports - imports), or the *trade balance*.
+If exports > imports, the country runs a *trade surplus*, otherwise it runs a *trade deficit*
+
+- *inventory investment* : the difference between goods produced and goods sold in a given year - the difference between production and sales, in other words
+
+* 3-2 The Demand For Goods
+
+Let the total demand for goods be Z. Then, using the decomposition of GDP above, we can write
+
+Z = C + I + G + X - IM
+total demand for goods = consumption + investment + government spending + exports - imports
+
+If we *assume* the economy is closed, X = IM = 0, then Z = C + I + G
+
+** Consumption
+
+We can assume that the relation between consumption and disposable income is given by the simple relation: C = c_0 + c_1 Y_d
+
+where Y_D is disposable income and Y_D = Y - T, where Y is income and T is taxes paid - government transfers received by consumers.
+
+** Investment
+
+Endogenous variables are explained within the model, and exogenous variables are taken as given.
+
+We take investment as given to keep the model simple here.
+
+** Government Spending
+
+Together with taxes (T), government spending (G) describes *fiscal policy* - the choise of taxes and spending by the government.
+
+Just as we did for investment, we will take G and T as exogenous.
+
+* 3-3 The Determination of Equilibrium Output
+
+Our new equation:
+
+Z = c_0 + c_1(Y - T) + \bar{I} + \bar{G}
+
+Our *equilibrium condition* is that production Y is equal to demand for goods Z:
+
+Y = Z
+
+Replacing demand Z for Y gives us
+
+Y = c_0 + c_1(Y - T) + \bar{I} + \bar{G}
+
+Macroeconomists always use these 3 tools:
+1. Algebra to make sure the logic is correct
+2. Graphs to build intuition
+3. Words to explain the result
+
+** Using Algebra
+
+We can rewrite our equation above as
+
+Y = \frac{1}{1 - c_1} [c_0 + \bar{I} + G - c_1 T]
+
+where the term in brackets is called *autonomous spending* since it does not depend on output.
+Since c_1 is bounded in [0, 1], the fraction term always positive and is considered the *multiplier*.
+
+** Using Words
+
+Production depends on demand, which depends on income, which is itself equal to production.
+
+It seems that these things work on feedback loops that converge eventually to the multiplier
+
+** How long does it take for output to adjust?
+
+Formally describing the adjustment of output over time - that is, writing the equation for what economists call the *dynamics* of adjustment, and solving the model - would be too hard to do here, but we can describe it in words:
+
+How long the adjustment takes depends on how fast consumers respond to changes in income and how fast firms respond to changes in sales.
+If firms adjust their production schedules more frequently in response to past increases in purchases, the adjustment will occur faster.
+
+* Investment Equals Saving: An Alternative Way of Thinking About Goods-Market Equilibrium
+
+Thus far we have been thinking of equilibrium in the goods market in terms of the equality of the production and the demand for goods.
+An alternative, but equivalent, way of thinking about equilibrium focuses instead on investment and saving. This is how John Maynard Keynes
+first articulated this model in 1936, in /The General Theory of Employment, Interest, and Money/.
+
+*Saving* is the sum of private saving and public saving
+*private saving* (S) (i.e. saving by consumers) is equal to their disposable income minus their consumption
+
+S \equiv Y_D - C
+
+or S \equiv Y - T - C
+
+*public saving* (T - G) is equal to taxes minus government spending. If the government is running a *budget surplus* taxes exceed government spending.
+If taxes are less than government spending, the government is running a *budget deficit*.
+
+I = S + (T - G)
+
+Investment = Savings + (Taxes - Government Spending)
+where Savings = Private Saving + Public Saving

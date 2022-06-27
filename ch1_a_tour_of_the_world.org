@@ -1,0 +1,62 @@
+#+TITLE: Chapter 1: A Tour of the World
+
+Economies, like people, get sick -- high unemployment, recessions, financial crises, low growth.
+Macroeconomics is about why it happens, and what can be done about it
+
+* 1-2 The United States
+
+When economists want to dig deeper and look at the health of the country, they look at 3 basic variables:
+- output growth
+- the unemployment rate
+- the inflation rate
+
+** Do Policymakers have the tools to handle the next recession?
+
+The Fed will have to play a central role. It is part of the mandate for the Fed to fight recessions.
+The Fed has the best policy instrument to do so, namely control of the interest rate.
+By *decreasing* interest rate, the Federal Reserve can stimulate demand, increase output, and decrease unemployment.
+By *increasing* interest rate, it can slow down demand and increase unemployment
+
+Some data sources for macro data:
+
+*** FRED: Federal Reserve Economic Database
+A continuously updated database maintained by the Federal Reserve Bank
+of Saint Louis, giving many macroeconomic and financial
+data, mostly for the United States, but also for other countries.
+https://fred.stlouisfed.org/
+
+*** WEO: World Economic Outlook Database.
+A database maintained by the International Monetary Fund (IMF),
+an international organization including most countries (at
+this point, 189) in the world. Updated twice a year, giving
+basic macroeconomic data for all member countries. The
+October 2018 data can be found at www.imf.org/external/
+pubs/ft/weo/2018/02/weodata/index.aspx
+
+*** OECD.stat
+A database maintained by the Organization for
+Economic Cooperation and Development (OECD),
+an international organization that includes most of the rich
+countries in the world. Together, these countries account for
+about 70% of the world’s output. One strength of the OECD
+data is that, for many variables, the OECD tries to make the
+variables comparable across member countries (or tells you
+when they are not comparable). https://stats.oecd.org/
+
+*** AMECO
+An annual macroeconomic database, maintained by
+the Commission of the European Union, that gives detailed
+macroeconomic data for all European Union members.
+http://ec.europa.eu/economy_finance/ameco/user/serie/
+SelectSerie.cfm
+
+*** Historical Statistics of the United States, Colonial Times to 1970, Parts 1 and 2
+published by the US Department of Commerce, Bureau of the Census
+(www. census.gov/prod/www/statistical_abstract.html).
+
+*** Angus Maddison’s Monitoring the World Economy, 1820–1992 Development Centre Studies, OECD, Paris, 1995.
+This study gives data going back to 1820 for 56 countries. Two even longer
+and broader sources are The World Economy: A Millennial
+Perspective, Development Studies, OECD, 2001, and The World
+Economy: Historical Statistics, Development Studies, OECD
+2004, both also by Angus Maddison.

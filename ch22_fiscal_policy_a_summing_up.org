@@ -1,0 +1,119 @@
+#+TITLE: Chapter 22: Fiscal Policy: A Summing Up
+
+*22-1* takes stock of what we have learned about fiscal policy so far
+
+*22-2* looks more closely at the government budget constraint and examines its implications for the relation between budget deficits, the interest rate, the growth rate, and government debt
+
+*22-3* takes up 3 issues for which the government budget constraint plays a central role, from the proposition that deficits do not really matter, to how to run fiscal policy in the cycle, to whether to finance wars through taxes or debt
+
+*22-4* discusses the dangers associated with high government debt, from higher taxes to higher interest rates, default, and high inflation
+
+*22-5* looks at the challenges facing US fiscal policy today
+
+*Basic Message*: Fiscal policy can be a strong macroeconomic policy tool. When using it, one must think about its short, medium, and long run effects
+
+* 22-2 : The Government Budget Constraint: Deficits, Debt, Spending, and Taxes
+
+Suppose that, starting from a balanced budget, the government decreases taxes, creating a budget deficit.
+
+** The Arithmetic of Deficits and Debt
+
+$\mathrm{deficit}_t = r B_{t - 1} + G_t - T_t$
+
+where:
+
+- $B_{t - 1}$ is the government debt at the end of year $t - 1$
+- $r$ is the real interest rate
+  - thus $rB_{t - 1}$ is the real interest payments on the government debt in year $t$
+- $G_t$ is government spending on goods and services during year $t$
+- $T_t$ is taxes minus transfers during the year $t$
+
+The budget deficit equals spending, including interest payments on the debt, minux taxes net of transfers
+The correct measure of the deficit is sometimes called the *inflation-adjusted deficit*
+
+The *government budget constraint* then simply states that the change in government debt during year t is equal to the deficit during year t:
+
+$B_t - B_{t - 1} = \mathrm{deficit}_t$
+
+It is often convenient to decompose the deficit into the sum of two terms:
+
+- Interest payments on the debt, $rB_{t - 1}$
+- The difference between spending and taxes, $G_t - T_t$. This term is called the *primary deficit* (equivalently, $T_t - G_t$ is called the primary surplus)
+
+** Debt Payment and Stabilization
+
+First set of conclusions (on paying debts in full):
+
+- If government spending is unchanged, a decrease in taxes must eventually be offset by an increase in taxes in the future
+- The longer the government waits to increase taxes, or the higher the real interest rate is, the higher the eventual increase in taxes must be
+
+Second set of conclusions (on debt stabilization):
+
+- The legacy of past deficits is higher government debt today
+- To stabilize the debt, the government must eliminate the deficit
+- To eliminate the deficit, and if the interest rate is positive, the government must run a primary surplus equal to the interest payments on the existing debt. This requires higher taxes forever.
+
+** The Evolution of the Debt-to-GDP Ratio
+
+In an economy in which output grows over time, it makes more sense to focus instead on the ratio of debt to output.
+To see how this change in focus modifies our conclusions, we need to use an equation that gives the evolution of the *debt-to-GDP ratio* - the *debt ratio* for short.
+
+$\frac{B_t}{Y_t} - \frac{B_{t - 1}}{Y_{t - 1}} = (r - g)\frac{B_{t - 1}}{Y_{t - 1}} + \frac{G_t - T_t}{Y_t}$
+
+The change in debt ratio over time is equal to the sum of 2 terms:
+
+- The first term is the difference between real interest rate and the growth rate times the initial debt ratio
+- The second term is the ratio of the primary deficit to GDP
+
+* 22-3 Ricardian Equivalence, Cyclical Adjusted Deficits, and War Finance
+
+Having looked at the mechanics of the government budget constraint, we take up 3 issues in which this constraint plays a central role
+
+** Ricardian Equivalence
+
+How does taking into account the government budget constraint affect the way we should think of the effects of deficit on output?
+
+The *Ricardian Equivalence* proposition states that once the government budget constraint is taken into account, neither deficits nor debt have an effect on economic activity. Under the Ricardian Equivalence proposition, a long sequence of deficits and the associated increase in government debt are no cause for worry.
+
+** Deficits, Output Stabilization, and the Cyclically Adjusted Deficit
+
+To help assess whether fiscal policy is on track, economists have constructed deficit measures that tell them what the deficit would be, under existing tax and specing rules, if output were equal to potential output. Such measures come under many different names - *full-employment deficit*, *midcycle deficit*, *standardized employment deficit*, and the *structural deficit*. The author uses *cyclically adjusted deficit*.
+
+Such a measure gives a simple benchmark against which to judge the direction of fiscal policy.
+
+Construction requires 2 steps:
+1. establish how much lower the deficit would be if output were, say, 1% higher
+2. asses how far output is from potential
+
+* 22-4 The Dangers of High Debt
+
+We have seen that high debt requires higher taxes in the future. A lesson from history is that high debt can also lead to vicious cycles, making the conduct of fiscal policy extremely difficult.
+
+** High Debt, Default risk, and Vicious Cycles
+
+The higher the ratio of debt to GDP, the larger the potential for catastrophic debt dynamics. Even if the fear that the government may not fully repay the debt was initially unfounded, it can easily become self-fulfilling. The higher interest that the government must pay on its debt can lead the government to lose control of its budget and lead to an increase in debt to a level such that the government is unable to repay the debt, thus validating the fears.
+
+** Debt Default
+
+When a government finds itself unable to repay the outstanding debt, it may decide to default. Default is often partial, and creditors take what is known as a *haircut*. A haircut of 30%, for example, means creditors only receive 70% of what they were owed. Default also comes under other fun names, like *debt restructuring*, *debt rescheduling*, or *private sector involvement*.
+
+Default allows more room for growth afterwards, but it comes at a high cost. If debt is held, as it often is, by domestic pension funds, retirees may suffer very much from the default. If it is held by domestic banks, then some may go bankrupt, with major adverse effects on the economy. It is is held mostly by foreigners, then the country's international reputation may be lost and it may be difficult for the government to borrow from abroad for a long time.
+
+** Money Finance
+
+So far we have assumed that the only way a government could finance itself was by selling bonds. The government can also finance itself by printing money.
+The way it does this is not actually by printing money itself but by issuing bonds and then requiring the central bank to buy its bonds in exchange for money. This process is called *money finance* or *debt monetization*. Because (in this case) the rate of money creation is determined by the government deficit rather than by the decisions of the central bank, this is also known as *fiscal dominance* of monetary policy.
+
+The revenue from money creation is called *seignorage*
+
+$s = \frac{\Delta H}{P}$
+
+where:
+
+- $s$ is seignorage
+- $\Delta H$ is the change in the nominal money stock from one month to the next (money creation)
+- $P$ is the price level
+
+* 22-5 The Challenges Facing US Fiscal Policy Today (as of 2018)
+
+The US debt-to-GDP ratio is high and slowly increasing over time. Given the likely increases in spending in the future, it would be desirable to reduce primary deficits and reduce the debt ratio. Low interest rates, and by implication the low cost of debt, imply that it can be done slowly. Because low interest rates, together with the zero lower bound, put sharp limits on the use of monetary policy, they also imply that it has to be done slowly so as to avoid a decrease in demand and output.

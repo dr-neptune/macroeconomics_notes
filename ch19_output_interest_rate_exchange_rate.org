@@ -1,0 +1,127 @@
+#+TITLE: Chapter 19: Output, the Interest Rate, and the Exchange Rate
+
+What determines the exchange rate? How can policymakers affect it?
+These questions motivate this chapter.
+
+19-1 looks at equilibrium in the goods market
+19-2 looks at equilibrium in financial markets, including the foreign exchange market
+19-3 puts the two equilibrium conditions together and looks at the determination of output, the interest rate, and the exchange rate
+19-4 looks at the role of policy under flexible exchange rates
+19-5 looks at the role of policy under fixed exchange rates
+
+Basic Message: The effects of monetary and fiscal policies differ very much depending on the exchange rate regime
+
+* 19-1 Equilibrium in the Goods Market
+
+Equilibrium in the goods market was the focus on ch 18, where we derived:
+
+$Y = C(Y - T) + I(Y, r) + G - IM(Y, \epsilon)/\epsilon + X(Y^*, \epsilon)$
+output = consumption (+) + investment (\+, -) + government spending - imports (+,+) + exports (+, -)
+
+where we can combine imports and exports to rewrite the final term:
+
+$Y = C(Y - T) + I(Y, r) + G + NX(Y, Y^*, \epsilon)$
+
+where *N* et e *X* ports are (-, +, -)
+
+we can simplify further:
+
+- $P = P^* = 1$, so $\epsilon = E$
+
+- $\pi^e = 0$, so $r = i$
+
+giving us:
+
+$Y = C(Y - T) + I(Y, i) + G + NX(Y, Y^*, E)$
+
+In words: Goods market equilibrium implies that output depends negatively on both the nominal interest rate and the nominal exchange rate
+
+* 19-2 Equilibrium in Financial Markets
+
+Now that we have a financially open economy, we must also take into account the fact that people have a choice between domestic bonds and foreign bonds.
+
+** Domestic Bonds vs. Foreign Bonds
+
+We can think of out interest parity as:
+
+$E = \frac{1 + i}{1 + i^*} \bar{E}^e$
+
+where E is the exchange rate, and the expected future exchange rate is $\bar{E^e}$
+
+An increase in the domestic interest rate relative to the foreign interest rate leads to an appreciation of the domestic currency
+
+* 19-3 Putting Goods and Financial Markets Together
+
+We now have the elements we need to understand the movements of output, the interest rate, and the exchange rate.
+
+IS: $Y = C(Y - T) + I(Y, i) + G + NX(Y, Y^*, \frac{1 + i}{1 + i^*} \bar{E^e})$
+
+LM: $i = \bar{i}$
+
+where $\bar{i}$ is the policy rate set by the central bank.
+
+Together, the two equations above determine the interest rate and equilibrium output.
+
+An increase in the interest rate now has two effects:
+1. A higher interest rate leads to a decrease in investment, a decrease in the demand for domestic goods, and a decrease in output
+2. A higher interest rate leads to an increase in the exchange rate - an appreciation. The appreciation, which makes domestic goods more expensive relative to foreign goods, leads to a decreasea in net exports, and therefore a decrease in the demand for domestic goods and a decrease in output
+
+* 19-4 The Effects of Policy in an Open Economy
+
+** The Effects of Monetary Policy in an Open Economy
+
+In an open economy, monetary policy works through 2 channels:
+
+1. As in the closed economy, it works through the effect of the interest rate on spending
+2. It works through the effect of the interest rate on the exchange rate and the effect of the exchange rate on imports and exports
+
+Both effects work in the same direction. In the case of a monetary contraction, the higher interest rate and the appreciation decrease both demand and output.
+
+** The Effects of Fiscal Policy in an Open Economy
+
+Suppose that, starting from a balanced budget, the government decides to increase defense spending without raising taxes s.t. it runs a budget deficit.
+
+What happens to the level of output? To the composition of output? To the interest rate? To the exchange rate?
+
+If we assume that before the increase in government spending that the level of output Y was below potential, then:
+
+- both consumption and government spending increase
+  - consumption goes up because of the increase in income, gov spending goes up by assumption
+- investment also rises because it depends on both output and the interest rate $I = I(Y, i)$
+- As the increase in output increases imports at an unchanged exchange rate, net exports decrease
+  - as a result, the budget deficit leads to a deterioration of the trade balance.
+
+Assume that the increase in G happens in an economy where output is close to potential output. Then the central bank will worry that the increase in G might push inflation up. It is likely to respond by raising the interest rate.
+
+- as before, both consumption and gov spending increase
+- Investment depends on both input and interest rate, but here as output rises, so does the interest rate. Thus the change to I is ambiguous
+- Net exports decrease for 2 reasons:
+  1. output goes up, increasing imports
+  2. the exchange rate appreciates, increasing imports and decreasing exports
+
+* 19-5 Fixed Exchange Rates
+
+We have assumed so far that the central bank chose the interest rate and let the exchange rate adjust freely in whatever manner was implied by equilibrium in the foreign exchange market.
+
+In many countries, this does not reflect reality. Central banks act under implicit or explicit exchange rate targets and use monetary policy to achieve those targets. The targets are sometimes implicit, sometimes explicit; sometimes specific values, sometimes bands or ranges.
+
+These exchange rate arrangements (or regimes) come under many names.
+
+** Pegs, Crawling Pegs, Bands, the EMS, and the Euro
+
+Countries like the US have flexible exchange rates. Some other countries, like Argentina operate under *fixed exchange rates*.
+They maintain a fixed exchange rate in terms of some foreign currency. Some *peg* their currency to the dollar.
+
+Between these extremes are countries with various degrees of commitment to an exchange rate target. For example, some countries operate under a *crawling peg*.
+These countries typically have inflation rates that exceed the US inflation rate. To avoid the rapid increase in their domestic price level above the US price level, making their goods uncompetitive, they choose a predetermined rate of depreciation against the dollar: They choose to *crawl* vis-a-vis the dollar.
+
+YA arrangement is for a group of countries to maintain their bilateral exchange rates within some bands. Perhaps the most prominent was the *European Monetary System (EMS)*, which determined the movements of exchange rates in the European Union from '78 to '98.
+
+** Monetary Policy when the Exchange Rate is Fixed
+
+In financial investors expect the exchange rate to remain unchanged, they will require the same nominal interest rate in both countries.
+Under a fixed exchange rate and perfect capital mobility, the domestic interest rate must be equal to the interest rate of the foreign country the country is pegging to. Under fixed exchange rates, the central bank _gives up_ monetary policy as a policy instrument.
+
+** Fiscal Policy when the Exchange Rate is Fixed
+
+The effects of an increase in government spending when the central bank pegs the exchange rate are identical to those in the case of flexible exchange rates and an unchanged monetary policy. This is because, under flexible exchange rates, if the increase in spending is not accompanied by a change in the interest rate, the exchange rate doesn't move.
